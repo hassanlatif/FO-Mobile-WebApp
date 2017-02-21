@@ -24,8 +24,8 @@
       "locator": "https://github.com/wf9a5m75/phonegap-googlemaps-plugin.git",
       "id": "plugin.google.maps",
       "variables": {
-        "API_KEY_FOR_ANDROID": "????",
-        "API_KEY_FOR_IOS": "????"
+        "API_KEY_FOR_ANDROID": "AIzaSyDp5VocapFO3PkFuhfXzDtzv-F71up1VRE",
+        "API_KEY_FOR_IOS": "AIzaSyDp5VocapFO3PkFuhfXzDtzv-F71up1VRE"
       }
     }
   ],
