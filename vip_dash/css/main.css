@@ -1,0 +1,131 @@
+
+div.google-visualization-tooltip { 
+	pointer-events: none 
+}
+
+svg > g > g:last-child {
+	pointer-events: none 
+}
+
+svg:first-child > g > text[text-anchor~=middle] {
+    font-size:11px;
+    /*font-weight:bold;*/
+}
+
+.breadcrumb>li+li:nth-last-child(1):before {
+	content: " ";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+    height:250px;
+
+}
+
+.col-mark {
+	border: 2px solid green;
+}
+
+.row-mark {
+	border: 2px solid red;
+}
+
+.well {
+	border: 1px solid grey;
+	background:rgba(255,255,255,0.7);
+	border-radius: 24px;
+	text-align: center;
+}
+
+#tt_S1_count{
+  text-align:center;
+  background-color:rgba(0,0,0,0.7);
+  width:100px;
+  height: 100px;
+  line-height:100px;
+  border-radius: 50px;
+  color:white;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+#tt_S2_count{
+  text-align:center;
+  background-color:rgba(255,0,0,1);
+  width:100px;
+  height: 100px;
+  line-height:100px;
+  border-radius: 50px;
+  color:white;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+#tt_S3_count {
+  text-indent: -10px;
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-bottom: 100px solid orange;
+  line-height:120px;
+  margin: auto;
+  margin-top: 5%;
+  
+}
+
+
+#UPE_Net_Status{
+  text-align:center;
+  background-color:rgba(255,0,0,1);
+  width:120px;
+  height: 120px;
+  line-height:120px;
+  border-radius: 60px;
+  color:white;
+  margin: auto;
+}
+
+
+#DSL_Down{
+  text-align:center;
+  background-color:rgba(0,0,0,0.7);
+   width:120px;
+  height: 120px;
+  line-height:120px;
+  border-radius: 60px;
+  color:white;
+  margin: auto;
+  
+}
+
+#DSL_SW_OFF{
+  text-align:center;
+  background-color:rgba(255,0,0,1);
+  width:120px;
+  height: 120px;
+  line-height:120px;
+  border-radius: 60px;
+  color:white;
+  margin: auto;
+
+}
+
+#DSL_Unknown {
+  text-indent: -10px;
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-bottom: 100px solid orange;
+  line-height:120px;
+  margin: auto; 
+
+}

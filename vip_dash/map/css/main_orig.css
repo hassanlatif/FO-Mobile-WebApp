@@ -1,0 +1,121 @@
+
+html, body {
+	height: 100%;
+	width: 100%; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	z-index: -50; 
+}
+
+#splitterContainer {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -49;
+}
+
+.splitbarH {
+	height: 6px;
+	text-align: left;
+	line-height: 0px;
+	font-size: 0px;
+	border-top: solid 1px #9cbdff;
+	border-bottom:solid 1px #9cbdff;
+	background: #cbe1fb url(../images/paneh.gif) 50% 0%;
+}
+
+.splitbuttonH {	
+	margin-left: -41px;
+	left: 50%;
+	position: relative;
+	height: 10px !important;
+	width: 83px;
+	background: transparent url(../images/panehc.gif) 50% 0px;
+}
+
+.splitbuttonH.invert {
+	margin-top: -4px;
+	background: transparent url(../images/panehc.gif) 50% -10px;
+}
+.splitbarH.working, .splitbuttonH.working {
+	-moz-opacity: .50; 
+	filter: alpha(opacity=50); 
+	opacity: .50;
+}
+
+#innerSplitter {
+	height: 100%;
+}
+
+#innerSplitterPane11 {
+	height: 15%;
+	overflow: hidden;
+	background-color: lightgrey; 
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+
+#innerSplitterPane12 {
+	height: 85%;
+	overflow: hidden;
+	z-index: -48;
+}
+
+#map {
+	height: 100%;
+	width: 100%;
+}
+
+#searchCriteriaLoading {
+	height: 100%;
+	width: 100%;
+}
+
+
+.popup {
+	width:200px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-150px 0 0 -100px; /* [-(height/2)px 0 0 -(width/2)px] */
+	display:none;
+	background:#eee;
+	border: 5px solid #D8D8D8;
+	z-index:15;
+	font-family:Georgia,Serif;
+	font-size:12px;
+}
+	  
+#dialog-overlay {
+	/* set it to fill the whil screen */
+	width:100%;
+	height:100%;
+	/* transparency for different browsers */
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	background:#000;
+	/* make sure it appear behind the dialog box but above everything else */
+	position:absolute;
+	top:0; left:0;
+	z-index:10;
+	/* hide it by default */
+	display:none;
+}
+	
+.text-label {
+color: lightblack;
+background-color:#E6E0E5;
+font-weight: bold;
+}
+
+select {
+	font-size: 10px;
+	font-weight: bold;
+	font-family: verdana;
+}
