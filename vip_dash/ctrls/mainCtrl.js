@@ -12,18 +12,28 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 
 		$scope.map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
-		drawUPENetworkStatus();
-		drawTTChart();
-	
+		//Fetch Data
+		$scope.UPEStats = jsonPath(servicesAlarmData, "$.alarmsData.UPEStats")[0];			
+		$scope.DSLStats = jsonPath(servicesAlarmData, "$.alarmsData.DSLStats")[0];		
+		$scope.FTTxStats = jsonPath(servicesAlarmData, "$.alarmsData.FTTXStats")[0];
+		$scope.TTData = jsonPath(servicesAlarmData, "$.alarmsData.TTStats")[0];
+		Utilization_data = jsonPath(servicesAlarmData, "$.alarmsData.Utilization")[0];
 
-	    function drawUPENetworkStatus() {
-			var data = new google.visualization.arrayToDataTable([
-				['Circuit Name', 'Value'],
-				["Cricuit1", 8],
-				["Circuit2", 4],
-				["Circuit3", 2],
-				["Circuit4", 1],
-				]);
+
+		drawUPENetworkStatus(Utilization_data);
+		drawTTChart($scope.TTData);
+
+
+		function drawUPENetworkStatus(Utilization_data) {
+
+			var util_array = [['Circuit Name', 'Value']];
+			for (var key in Utilization_data) {
+				if (Utilization_data.hasOwnProperty(key)) {
+					util_array.push([key, Utilization_data[key]]);
+				}
+			}
+
+			var data = new google.visualization.arrayToDataTable(util_array);
 
 			var options = {
 				height: 150,
@@ -39,13 +49,13 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 
 		};		
 
-		function drawTTChart(){
+		function drawTTChart(TTSeverity){
 			///Trouble Tickets Chart///
 			var ticketsVal = google.visualization.arrayToDataTable([
 				['Severity', 'Tickets', { role: 'style' }],
-				['High', 1, '#DC3912'],
-				['Medium', 2, '#FF9900'],
-				['Low', 3, '#F9ED02']
+				['Critical', TTSeverity.Critical, '#DC3912'],    
+				['High', TTSeverity.High, '#FF9900'],
+				['Medium', TTSeverity.Medium, '#F9ED02']
 				]);
 
 
@@ -62,8 +72,6 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 			var barChart = new google.visualization.ColumnChart(document.getElementById("tickets_chart"));
 			barChart.draw(ticketsVal, ticketsOpts);
 		}
-
-
 
 
 		var periodicRefresh = $interval(function () {

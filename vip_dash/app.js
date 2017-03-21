@@ -36,7 +36,7 @@ app.factory('AlarmsDataService', ['$http', 'BasePath', function($http, BasePath)
 	return {
 
 		getServiceLevelAlarms: function() {
-			return $http.get(BasePath + 'json/alarmsData.json').then(function(response) {
+			return $http.get(BasePath + 'json/vipAlarmsData.json').then(function(response) {
 				return response.data;
 			}, function(){console.log("Failed to fetch service level alarms;")});
 		},

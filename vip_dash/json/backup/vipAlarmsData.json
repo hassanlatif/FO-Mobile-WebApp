@@ -1,0 +1,40 @@
+{
+    "alarmsData": {
+    	"serviceTTStats": {
+    		"S1": 3,
+    		"S2": 1,
+    		"S3": 5
+    	},
+
+    	"UPENetworkStatus" : {
+    		"Down": 12
+    	},
+
+    	"Utilization" : {
+    		"circtui_1" : 8.5,
+    		"circtui_2" : 6,
+    		"circtui_3" : 2.5,
+    		"circuit_4" : 4
+    	},
+
+    	"severityTTStats": {
+    		"High": 2,
+    		"Medium": 4,
+    		"Low": 8
+    	},
+
+    	"DSLCircutisStats": {
+    		"Down" : 15,
+    		"SwitchedOff": 9,
+    		"Unknown": 2
+    	},
+
+    	"FTTxCircuitsStats": {
+    		"Down" : 6,
+    		"SwitchedOff": 11,
+    		"Disconnect": 8,
+    		"NeverConnected": 10
+    	}
+    
+     }
+}
