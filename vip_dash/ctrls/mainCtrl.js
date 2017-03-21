@@ -1,30 +1,89 @@
-app.controller('mainController', ['$scope','$stateParams', '$state', '$interval', '$timeout', 'servicesAlarmData', 'RefreshPeriod',
-	function($scope, $stateParams, $state, $interval, $timeout, servicesAlarmData, RefreshPeriod) {
+app.controller('mainController', ['$scope','$stateParams', '$state', '$interval', '$timeout', 'servicesAlarmData', 'RefreshPeriod', 'mapAlarmsData',
+	function($scope, $stateParams, $state, $interval, $timeout, servicesAlarmData, RefreshPeriod, mapAlarmsData) {
 
 		$scope.infoMessage = "";
-
-
-		var mapOptions = {
-			zoom: 4,
-			center: new google.maps.LatLng(40.0000, -98.0000),
-			mapTypeId: google.maps.MapTypeId.TERRAIN
-		}
-
-		$scope.map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
 		//Fetch Data
 		$scope.UPEStats = jsonPath(servicesAlarmData, "$.alarmsData.UPEStats")[0];			
 		$scope.DSLStats = jsonPath(servicesAlarmData, "$.alarmsData.DSLStats")[0];		
 		$scope.FTTxStats = jsonPath(servicesAlarmData, "$.alarmsData.FTTXStats")[0];
 		$scope.TTData = jsonPath(servicesAlarmData, "$.alarmsData.TTStats")[0];
-		Utilization_data = jsonPath(servicesAlarmData, "$.alarmsData.Utilization")[0];
+		UtilData = jsonPath(servicesAlarmData, "$.alarmsData.Utilization")[0];
 
 
-		drawUPENetworkStatus(Utilization_data);
-		drawTTChart($scope.TTData);
+		draw_UPE_NetStat_Chart(UtilData);
+		draw_TT_Chart($scope.TTData);
+
+		var mapOptions = {
+			zoom: 4,
+			center: new google.maps.LatLng(24.746863, 46.724298),
+			mapTypeId: google.maps.MapTypeId.TERRAIN
+		}
+
+		AlarmsMap = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+		mapAlarms = jsonPath(mapAlarmsData, "$.mapMarkers")[0];
+		//console.log(mapAlarms);
+
+		var markers_UP = [];
+		var markers_DOWN = [];
+
+		for(var key in mapAlarms){
+			if (mapAlarms.hasOwnProperty(key)){
+
+				var latLng = new google.maps.LatLng(mapAlarms[key].latitude, mapAlarms[key].longitude);
+
+				if (mapAlarms[key].circuitStatus == "UP") {
+					var marker = new google.maps.Marker({
+						position: latLng,
+						icon: 'media/pin0.png'
+					});						
+					markers_UP.push(marker);
+					//console.log("UP")
+				}
+				else {
+					var marker = new google.maps.Marker({
+						position: latLng,
+						icon: 'media/pin1.png'						
+					});					
+					markers_DOWN.push(marker);
+				}
+			}
+		}
+
+		var clusterStyles_UP = [
+		{   
+			url: 'media/m0.png',
+			height: 65,
+			width: 65,
+			anchor: [0, 0],
+			textColor: '#ffffff',
+			textSize: 11
+		}, ];		
+
+		var options_UP = {
+			styles: clusterStyles_UP
+		};
+
+		var clusterStyles_DOWN = [
+		{   
+			url: 'media/m3.png',
+			height: 65,
+			width: 65,
+			anchor: [0, 0],
+			textColor: '#ffffff',
+			textSize: 11
+		}];		
+
+		var options_DOWN = {
+			styles: clusterStyles_DOWN
+		};
+
+		var markerCluster_UP = new MarkerClusterer(AlarmsMap, markers_UP, options_UP);
+		var markerCluster_DOWN = new MarkerClusterer(AlarmsMap, markers_DOWN, options_DOWN);
 
 
-		function drawUPENetworkStatus(Utilization_data) {
+		function draw_UPE_NetStat_Chart(Utilization_data) {
 
 			var util_array = [['Circuit Name', 'Value']];
 			for (var key in Utilization_data) {
@@ -49,7 +108,7 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 
 		};		
 
-		function drawTTChart(TTSeverity){
+		function draw_TT_Chart(TTSeverity){
 			///Trouble Tickets Chart///
 			var ticketsVal = google.visualization.arrayToDataTable([
 				['Severity', 'Tickets', { role: 'style' }],

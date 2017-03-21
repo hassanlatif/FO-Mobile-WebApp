@@ -24,7 +24,11 @@ app.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider,
 			servicesAlarmData: ['AlarmsDataService', function (AlarmsDataService) {
 				//console.log(AlarmsDataService.getServiceLevelAlarms());
 				return AlarmsDataService.getServiceLevelAlarms();
-			}]
+			}],
+			mapAlarmsData: ['AlarmsDataService', function (AlarmsDataService) {
+				//console.log(AlarmsDataService.getMapAlarms());
+				return AlarmsDataService.getMapAlarms();
+			}]	
 		}   
 
 	})
@@ -40,6 +44,11 @@ app.factory('AlarmsDataService', ['$http', 'BasePath', function($http, BasePath)
 				return response.data;
 			}, function(){console.log("Failed to fetch service level alarms;")});
 		},
+		getMapAlarms: function() {
+			return $http.get(BasePath + 'json/vipMapMarkers.json').then(function(response) {
+				return response.data;
+			}, function(){console.log("Failed to fetch map alarms;")});
+		}
 
 	};
 }])
@@ -47,11 +56,11 @@ app.factory('AlarmsDataService', ['$http', 'BasePath', function($http, BasePath)
 
 
 app.filter('formatTimer', function() {
-  return function(input)
-    {
-        function z(n) {return (n<10? '0' : '') + n;}
-        var seconds = input % 60;
-        var minutes = Math.floor(input / 60);
+	return function(input)
+	{
+		function z(n) {return (n<10? '0' : '') + n;}
+		var seconds = input % 60;
+		var minutes = Math.floor(input / 60);
         //var hours = Math.floor(minutes / 60);            
         return (z(minutes)+':'+z(seconds));
     };
