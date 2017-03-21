@@ -19,10 +19,10 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 	    function drawUPENetworkStatus() {
 			var data = new google.visualization.arrayToDataTable([
 				['Circuit Name', 'Value'],
-				["Cricuit1", 1],
-				["Circuit2", 2],
-				["Circuit3", 4],
-				["Circuit4", 8],
+				["Cricuit1", 8],
+				["Circuit2", 4],
+				["Circuit3", 2],
+				["Circuit4", 1],
 				]);
 
 			var options = {
