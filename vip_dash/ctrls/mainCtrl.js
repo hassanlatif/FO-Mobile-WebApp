@@ -36,15 +36,14 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 				if (mapAlarms[key].circuitStatus == "UP") {
 					var marker = new google.maps.Marker({
 						position: latLng,
-						icon: 'media/pin0.png'
+						icon: 'media/circuit_green.png'
 					});						
 					markers_UP.push(marker);
-					//console.log("UP")
 				}
 				else {
 					var marker = new google.maps.Marker({
 						position: latLng,
-						icon: 'media/pin1.png'						
+						icon: 'media/circuit_red.png'						
 					});					
 					markers_DOWN.push(marker);
 				}
@@ -53,9 +52,9 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 
 		var clusterStyles_UP = [
 		{   
-			url: 'media/m0.png',
-			height: 65,
-			width: 65,
+			url: 'media/cluster_green.png',
+			height: 55,
+			width: 55,
 			anchor: [0, 0],
 			textColor: '#ffffff',
 			textSize: 11
@@ -67,9 +66,9 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 
 		var clusterStyles_DOWN = [
 		{   
-			url: 'media/m3.png',
-			height: 65,
-			width: 65,
+			url: 'media/cluster_red.png',
+			height: 55,
+			width: 55,
 			anchor: [0, 0],
 			textColor: '#ffffff',
 			textSize: 11
