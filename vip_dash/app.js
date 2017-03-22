@@ -1,5 +1,4 @@
 google.load('visualization', '1', {packages:['corechart']});
-google.load('visualization', '1', {packages:['gauge']});
 google.load('visualization', '1', {packages:['bar']});
 
 'use strict';

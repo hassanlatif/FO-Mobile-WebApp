@@ -1,7 +1,25 @@
-app.controller('mainController', ['$scope','$stateParams', '$state', '$interval', '$timeout', 'servicesAlarmData', 'RefreshPeriod', 'mapAlarmsData',
-	function($scope, $stateParams, $state, $interval, $timeout, servicesAlarmData, RefreshPeriod, mapAlarmsData) {
+app.controller('mainController', ['$scope','$stateParams', '$state', '$interval', '$uibModal', 'servicesAlarmData', 'RefreshPeriod', 'mapAlarmsData',
+	function($scope, $stateParams, $state, $interval, $uibModal, servicesAlarmData, RefreshPeriod, mapAlarmsData) {
 
-		$scope.infoMessage = "";
+
+		var modal = $uibModal.open({
+			templateUrl: 'modalDialog.html',
+			scope: $scope
+		});
+
+		$scope.modalInstance = modal;
+
+		modal.result.then(function () {
+			console.log('Modal Oked at:' + new Date());
+		}, function () {
+			console.log('Modal dismissed at: ' + new Date());
+		});
+
+
+		$scope.ok = function() {
+			$scope.modalInstance.close('OK Button Clicked')
+		};        
+
 
 		//Fetch Data
 		$scope.UPEStats = jsonPath(servicesAlarmData, "$.alarmsData.UPEStats")[0];			
