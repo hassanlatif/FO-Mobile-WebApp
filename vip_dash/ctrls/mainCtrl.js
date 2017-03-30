@@ -1,36 +1,47 @@
-app.controller('mainController', ['$scope','$stateParams', '$state', '$interval', '$uibModal', 'servicesAlarmData', 'RefreshPeriod', 'mapAlarmsData',
-	function($scope, $stateParams, $state, $interval, $uibModal, servicesAlarmData, RefreshPeriod, mapAlarmsData) {
-
-
-		var modal = $uibModal.open({
-			templateUrl: 'modalDialog.html',
-			scope: $scope
-		});
-
-		$scope.modalInstance = modal;
-
-		modal.result.then(function () {
-			console.log('Modal Oked at:' + new Date());
-		}, function () {
-			console.log('Modal dismissed at: ' + new Date());
-		});
-
-
-		$scope.ok = function() {
-			$scope.modalInstance.close('OK Button Clicked')
-		};        
-
+app.controller('mainController', ['$scope','$stateParams', '$state', '$interval', '$uibModal', '$localStorage', 'servicesAlarmData', 'RefreshPeriod', 'mapAlarmsData',
+	function($scope, $stateParams, $state, $interval, $uibModal, $localStorage, servicesAlarmData, RefreshPeriod, mapAlarmsData) {
 
 		//Fetch Data
-		$scope.UPEStats = jsonPath(servicesAlarmData, "$.alarmsData.UPEStats")[0];			
-		$scope.DSLStats = jsonPath(servicesAlarmData, "$.alarmsData.DSLStats")[0];		
-		$scope.FTTxStats = jsonPath(servicesAlarmData, "$.alarmsData.FTTXStats")[0];
-		$scope.TTData = jsonPath(servicesAlarmData, "$.alarmsData.TTStats")[0];
-		UtilData = jsonPath(servicesAlarmData, "$.alarmsData.Utilization")[0];
+		var alarmsData = jsonPath(servicesAlarmData, "$.alarmsData")[0];
+		$scope.newAlarmsMsg = null;
 
+		if ($localStorage.alarmsStore==null) {
+			$localStorage.alarmsStore = alarmsData;
+		}
+		else {
 
-		draw_UPE_NetStat_Chart(UtilData);
-		draw_TT_Chart($scope.TTData);
+			oldAlarms = $localStorage.alarmsStore;
+			$scope.newAlarmsMsg = compareAlarms(oldAlarms, alarmsData);
+			$localStorage.alarmsStore = alarmsData;
+		}
+
+		$scope.UPEStats = alarmsData.UPEStats;
+		$scope.DSLStats = alarmsData.DSLStats;
+		$scope.FTTxStats = alarmsData.FTTXStats;
+		$scope.TTData = alarmsData.TTStats; 
+		UtilData = alarmsData.Utilization; 
+
+		if ($scope.newAlarmsMsg) {
+
+			var modal = $uibModal.open({
+				templateUrl: 'modalDialog.html',
+				scope: $scope,
+				size: 'sm'
+			});
+
+			$scope.modalInstance = modal;
+
+			modal.result.then(function () {
+				console.log('Alarms Oked');
+			}, function () {
+				console.log('Alarms dismissed');
+			});
+
+			$scope.ok = function() {
+				modal.close('OK Button Clicked')
+			};        
+		}
+
 
 		var mapOptions = {
 			zoom: 4,
@@ -39,9 +50,41 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 		}
 
 		AlarmsMap = new google.maps.Map(document.getElementById('map'), mapOptions);
-
 		mapAlarms = jsonPath(mapAlarmsData, "$.mapMarkers")[0];
-		//console.log(mapAlarms);
+
+		draw_Markers_Map(AlarmsMap, mapAlarms);
+		draw_UPE_NetStat_Chart(UtilData);
+		draw_TT_Chart($scope.TTData);
+
+
+		function compareAlarms(oAlarms, nAlarms) {	
+			var newAlarmsStr = "";
+
+			var oldAlarms = Object.create(oAlarms);
+			var newAlarms = Object.create(nAlarms);
+			delete oldAlarms.Utilization;
+			delete oldAlarms.TechStats;
+			delete newAlarms.Utilization;
+			delete newAlarms.TechStats;
+
+			for (alarmType in oldAlarms) {
+				var alarmTypeCount = 0;
+				for (key in oldAlarms[alarmType]) {
+					if (key != "Up" && newAlarms[alarmType][key] > oldAlarms[alarmType][key]) {
+						alarmTypeCount = alarmTypeCount + (newAlarms[alarmType][key] - oldAlarms[alarmType][key]);
+					}
+				}
+				if (alarmTypeCount > 0) {
+					newAlarmsStr = newAlarmsStr + alarmType + " : " + alarmTypeCount + " new alarm(s). \n";
+				}
+			}
+
+			newAlarmsStr = newAlarmsStr.replace("Stats", "");
+			return newAlarmsStr;
+		}
+
+
+		function draw_Markers_Map(AlarmsMap, mapAlarms){
 
 		var markers_UP = [];
 		var markers_DOWN = [];
@@ -99,33 +142,35 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 		var markerCluster_UP = new MarkerClusterer(AlarmsMap, markers_UP, options_UP);
 		var markerCluster_DOWN = new MarkerClusterer(AlarmsMap, markers_DOWN, options_DOWN);
 
+	};
 
-		function draw_UPE_NetStat_Chart(Utilization_data) {
 
-			var util_array = [['Circuit Name', 'Value']];
-			for (var key in Utilization_data) {
-				if (Utilization_data.hasOwnProperty(key)) {
-					util_array.push([key, Utilization_data[key]]);
-				}
+	function draw_UPE_NetStat_Chart(Utilization_data) {
+
+		var util_array = [['Circuit Name', 'Value']];
+		for (var key in Utilization_data) {
+			if (Utilization_data.hasOwnProperty(key)) {
+				util_array.push([key, Utilization_data[key]]);
 			}
+		}
 
-			var data = new google.visualization.arrayToDataTable(util_array);
+		var data = new google.visualization.arrayToDataTable(util_array);
 
-			var options = {
-				height: 150,
-				chartArea: {width: '65%', height:'75%', top:0, left:'25%'},
-				legend: { position: 'none' },
-				hAxis: {
-					minValue: 0
-				},
-			};
+		var options = {
+			height: 150,
+			chartArea: {width: '65%', height:'75%', top:0, left:'25%'},
+			legend: { position: 'none' },
+			hAxis: {
+				minValue: 0
+			},
+		};
 
-			var chart = new google.visualization.BarChart(document.getElementById('utilization_chart'));
-			chart.draw(data,options)
+		var chart = new google.visualization.BarChart(document.getElementById('utilization_chart'));
+		chart.draw(data,options)
 
-		};		
+	};		
 
-		function draw_TT_Chart(TTSeverity){
+	function draw_TT_Chart(TTSeverity){
 			///Trouble Tickets Chart///
 			var ticketsVal = google.visualization.arrayToDataTable([
 				['Severity', 'Tickets', { role: 'style' }],

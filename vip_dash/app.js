@@ -3,7 +3,7 @@ google.load('visualization', '1', {packages:['bar']});
 
 'use strict';
 
-var app = angular.module('app', ['ui.router', 'ui.bootstrap']);
+var app = angular.module('app', ['ui.router', 'ui.bootstrap','ngStorage']);
 
 //app.constant('BasePath', "/ibm/console/webtop/WBU-Dashboard/wbu_services/");
 app.constant('BasePath', "");

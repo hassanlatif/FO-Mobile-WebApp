@@ -1,39 +1,44 @@
 {
     "alarmsData": {
         "TTStats": {
-            "Critical": 2,
-            "High": 1,
+            "Critical": 4,
+            "High": 2,
             "Medium": 4,
             "Low": 2
         },
+        
         "DSLStats": {
             "Up": 3,
-            "Down": 5,
-            "SwitchedOff": 1,
-            "Unknown": 11
+            "Down": 16,
+            "SwitchedOff": 4,
+            "Unknown": 13
         },
+        
         "FTTXStats": {
-            "Up": 29,
-            "Down": 1,
-            "SwitchedOff": 1,
-            "NeverConnectedOnt": 0,
-            "Disabled": 5,
-            "Disconnected": 0,
+            "Up": 2,
+            "Down": 17,
+            "SwitchedOff": 22,
+            "NeverConnectedOnt": 2,
+            "Disabled": 7,
+            "Disconnected": 1,
             "Unknown": 0
         },
+
         "UPEStats": {
             "Up": 103,
-            "Down": 13
+            "Down": 14
         },
+        
         "TechStats": {
             "IP": 511,
-            "DIA": 83,
+            "DIA": 13,
             "DIAS": 1,
             "WDM": 4,
             "PLL": 203,
             "VPLS": 1,
             "CBLS": 15
         },
+        
         "Utilization": {
             "NJRNJNEE-NJRNJNEE_IP1": 0,
             "QASSIM-RIYADH_PLL1": 83.04277,
