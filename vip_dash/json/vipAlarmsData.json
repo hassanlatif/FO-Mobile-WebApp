@@ -40,10 +40,11 @@
         },
         
         "Utilization": {
-            "NJRNJNEE-NJRNJNEE_IP1": 0,
+            "NJRNJNEE-NJRNJNEE_IP1": 23,
             "QASSIM-RIYADH_PLL1": 83.04277,
             "BADA03-BURA01_PLL3": 93.01829,
-            "BADA03-BURA01_PLL2": 90.29032
+            "BADA03-BURA01_PLL2": 90.29032,
+            "BADA04-BURA03_PLL2": 77          
         }
     }
 }
