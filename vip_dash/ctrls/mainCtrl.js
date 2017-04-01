@@ -117,7 +117,8 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 						var marker = new google.maps.Marker({
 							position: latLng,
 							icon: 'media/circuit_green.png',
-							html: '<span><b>Circuit ID :</b>  ' + key + '  </span>'															
+							html: '<span><b>Customer :</b>  ' + mapAlarms[key].customer + '  </span>'	+ '<br>' +
+							'<span><b>Circuit ID :</b>  ' + key														
 						});						
 
 						google.maps.event.addListener(marker, 'click', function () {
@@ -133,7 +134,9 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 						var marker = new google.maps.Marker({
 							position: latLng,
 							icon: 'media/circuit_red.png',
-							html: '<span><b>Circuit ID :</b>  ' + key + '  </span>'															
+							html: '<span><b>Customer :</b>  ' + mapAlarms[key].customer + '  </span>'	+ '<br>' +
+							'<span><b>Circuit ID :</b>  ' + key
+
 						});					
 
 						google.maps.event.addListener(marker, 'click', function () {
