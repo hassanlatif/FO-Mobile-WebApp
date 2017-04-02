@@ -18,9 +18,6 @@ pre {
 	font-family: inherit;
 }
 
-#map {
-	height:250px;
-}
 
 .col-mark {
 	border: 2px solid green;
@@ -35,6 +32,16 @@ pre {
 	background:rgba(255,255,255,0.7);
 	border-radius: 24px;
 	text-align: center;
+}
+
+#map {
+	height:250px;
+}
+
+
+#map.well {
+	border-radius: 5px;
+
 }
 
 .circle-md {
@@ -176,4 +183,12 @@ pre {
 	left: auto;
 }
 
+#header {
+		height: 33px;
+		background: grey; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(white, #501F6E); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(white, #501F6E); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(white, #501F6E); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#E1088D, #501F6E); /* Standard syntax (must be last) - Original: #5B3372; */
+}
 
