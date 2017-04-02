@@ -30,6 +30,7 @@ pre {
 .row.is-flex {
     display: flex;
     flex-wrap: wrap;
+    margin: 2px;
 }
 .row.is-flex > [class*='col-'] {
     display: flex;
@@ -54,12 +55,28 @@ pre {
 }
 
 
+.circle-sm {
+	width:75px;
+	height: 75px;
+	line-height: 75px;
+	border-radius: 50%;
+	color:white;
+	text-align:center;  
+	margin: auto;
+}
+
+.circle-sm p {
+	font-size: 40px;
+	font-family:"Calibri";
+	font-weight: bold;
+	color:white;
+}
 
 .circle-md {
 	width:100px;
 	height: 100px;
-	line-height:100px;
-	border-radius: 50px;
+	line-height: 100px;
+	border-radius: 50%;
 	color:white;
 	text-align:center;  
 	margin: auto;
@@ -76,7 +93,7 @@ pre {
 	width:120px;
 	height: 120px;
 	line-height:120px;
-	border-radius: 60px;
+	border-radius: 57.5px;
 	color:white;
 	text-align:center; 
 	margin: auto; 
@@ -138,39 +155,28 @@ pre {
 	color:white;   	
 }
 
-.panel {
-	margin: 0px;
-	-webkit-box-shadow: 0px;
-	box-shadow: 0px;
 
-}
-
-.panel-body {
-	padding: 10px 5px 10px 5px;
-	border: 0px;
-	
+.parent-col {
+	padding: 5px;
 }
 
 
-.panel-heading {
+.panel-col {
 	padding: 0px;
-	background-color: transparent;
-
-}
-
-.panel-footer {
-	padding: 0px;
-	background-color: transparent;
-	border: 0px;
-
 }
 
 
+
+.glyphicon {
+	font-size:30px;
+}
+
+.glyphicon-circle-arrow-down {
+	color:green; 
+}
 
 .glyphicon-circle-arrow-up {
-
-	color:green; 
-	font-size:30px;
+	color:red; 
 }
 
 
@@ -193,6 +199,10 @@ pre {
 }
 
 #UPE_Net_Status{
+/*
+	background-color:#fff;
+    border:1px solid red; 	
+*/
 	background-color:rgba(255,0,0,1);
 }
 
@@ -205,7 +215,9 @@ pre {
 }
 
 #DSL_Unknown {
-	border-bottom-color: orange;  
+	/*border-bottom-color: orange;  */
+	background-color:orange;
+
 }
 
 #FTTx_Down {
