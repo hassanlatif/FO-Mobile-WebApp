@@ -1,13 +1,13 @@
 <script type="text/ng-template" id="modalDialog.html">
-  <div class="modal-header">
-    <h3 class="modal-title">New alarms notification</h3>
-  </div>
-  <div class="modal-body">
-	<pre>{{newAlarmsMsg}}</pre>
-  </div>
-  <div class="modal-footer">
-    <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
-  </div>
+	<div class="modal-header">
+		<h3 class="modal-title">New alarms notification</h3>
+	</div>
+	<div class="modal-body">
+		<pre>{{newAlarmsMsg}}</pre>
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+	</div>
 </script>
 
 <div class="container-fluid" id="mainView" style="margin-top:20px">
@@ -20,13 +20,26 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
-					<div class="well">			
-						<h5><b>UPE Network Status</b>	<span class="glyphicon glyphicon-circle-arrow-up" style="color:green; font-size: 30px;"></span></h5>
-						<div id="UPE_Net_Status" class="circle-lg">
-							<p>{{UPEStats.Down}}</p>
+					<div class="well">		
+						<div class="panel">
+							<div class="panel-heading text-center">UPE Network Status</div>
+							<div class="panel-body">
+								<div class="row is-flex">
+									<div class="col-md-9">	
+										<div id="UPE_Net_Status" class="circle-lg">
+											<p>{{UPEStats.Down}}</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div style="position: relative; top:30%;">
+											<div class="glyphicon glyphicon-circle-arrow-up"></div>
+											<div>35</div>
+										</div>
+									</div>
+								</div> 
+							</div>
+							<div class="panel-footer text-center">Down</div>
 						</div>
-						<p><b>Down</b></p>
-
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">

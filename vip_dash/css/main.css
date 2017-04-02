@@ -27,6 +27,15 @@ pre {
 	border: 2px solid red;
 }
 
+.row.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
 .well {
 	border: 1px solid grey;
 	background:rgba(255,255,255,0.7);
@@ -43,6 +52,8 @@ pre {
 	border-radius: 5px;
 
 }
+
+
 
 .circle-md {
 	width:100px;
@@ -125,6 +136,41 @@ pre {
 	font-family:"Calibri";
 	font-weight: bold;
 	color:white;   	
+}
+
+.panel {
+	margin: 0px;
+	-webkit-box-shadow: 0px;
+	box-shadow: 0px;
+
+}
+
+.panel-body {
+	padding: 10px 5px 10px 5px;
+	border: 0px;
+	
+}
+
+
+.panel-heading {
+	padding: 0px;
+	background-color: transparent;
+
+}
+
+.panel-footer {
+	padding: 0px;
+	background-color: transparent;
+	border: 0px;
+
+}
+
+
+
+.glyphicon-circle-arrow-up {
+
+	color:green; 
+	font-size:30px;
 }
 
 
