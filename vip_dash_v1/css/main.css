@@ -37,6 +37,11 @@ pre {
 	text-align: center;
 }
 
+.trend {
+	font-size:16px;
+	padding-top: 5px;
+}
+
 .circle-md {
 	width:100px;
 	height: 100px;
@@ -72,6 +77,27 @@ pre {
 }
 
 
+
+.black-circle {
+	background-color:rgba(0,0,0,0.7);
+
+}
+
+.red-circle {
+		background-color:rgba(255,0,0,1);
+
+}
+
+.orange-circle {
+		background-color:orange;
+
+}
+
+.yellow-circle {
+		background-color:yellow;
+
+}
+
 .triangle {
 	width: 0;
 	height: 0;
@@ -95,6 +121,24 @@ pre {
 	font-family:"Calibri";
 	font-weight: bold;
 	color:white;
+}
+
+
+.black-triangle {
+	border-bottom-color: rgba(0,0,0,0.7);
+}
+
+
+.red-triangle {
+	border-bottom-color: red;  
+}
+
+.orange-triangle {
+	border-bottom-color: orange;  
+}
+
+.yellow-triangle {
+	border-bottom-color: yellow;  
 }
 
 .invert {
@@ -122,25 +166,23 @@ pre {
 
 
 #tt_S1_count{
-	background-color:rgba(0,0,0,0.7);
-	margin-top: 5%;
-	margin-bottom: 25px;
+	/*background-color:rgba(0,0,0,0.7);*/
+	/*margin-top: 5%;*/
 }
 
 #tt_S2_count{
-	background-color:rgba(255,0,0,1);
+/*	background-color:rgba(255,0,0,1);
 	margin-top: 5%;
-	margin-bottom: 25px;
-}
+*/}
 
 #tt_S3_count {
-	border-bottom-color: orange;
+/*	border-bottom-color: orange;
 	margin-top: 5%;
-
+*/
 }
 
 #UPE_Net_Status{
-	background-color:rgba(255,0,0,1);
+	/*background-color:rgba(255,0,0,1);*/
 }
 
 #DSL_Down {

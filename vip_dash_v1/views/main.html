@@ -1,13 +1,22 @@
 <script type="text/ng-template" id="modalDialog.html">
-  <div class="modal-header">
-    <h3 class="modal-title">New alarms notification</h3>
-  </div>
-  <div class="modal-body">
-	<pre>{{newAlarmsMsg}}</pre>
-  </div>
-  <div class="modal-footer">
-    <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
-  </div>
+	<div class="modal-header">
+		<h3 class="modal-title">New alarms notification</h3>
+	</div>
+	<div class="modal-body">
+		<pre>{{newAlarmsMsg}}</pre>
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+	</div>
+</script>
+
+<script type="text/ng-template" id="alarmWidget.html">
+
+	<div id="{{id}}" class="{{trendShape}} {{shapeColor}}">
+		<p class="{{textOrient}}">{{alarmStatus}}</p>
+	</div>
+	<div class="trend"><b>{{alarmCount | numberSign}}</b></div>
+
 </script>
 
 <div class="container-fluid" id="mainView" style="margin-top:20px">
@@ -21,16 +30,13 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
 					<div class="well">			
-						<h5><b>UPE Network Status</b></h5>
-						<div id="UPE_Net_Status" class="circle-lg">
-							<p>{{UPEStats.Down}}</p>
-						</div>	
-						<p><b>Down</b></p>
+						<h5><b>UPE Network Status (Down)</b></h5>
+						<alarm-widget id="UPE_Net_Status" alarm-status="{{UPEStats.Down}}" alarm-count="{{alarmsCount.UPEStats_Down}}" size="lg" color="red"></alarm-widget>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<div class="well">		
-						<h5><b>Utilization</b></h5>
+						<h5><b>Highest Utilization (Top 5)</b></h5>
 						<div id="utilization_chart">
 						</div>		
 					</div>
@@ -49,11 +55,12 @@
 			<div class="well">
 				<h5><b>Trouble Ticket Statstics</b></h5>
 				<h6><b>Service Unavailable (S1)</b></h6>
-				<div id="tt_S1_count" class="circle-md"><p>{{TTData.Critical}}</p></div>
+				<alarm-widget id="tt_S1_count" alarm-status="{{TTData.Critical}}" alarm-count="{{alarmsCount.TTStats_Critical}}" size="md" color="black"></alarm-widget>
+
 				<h6><b>Service Degraded (S2)</b></h6>        
-				<div id="tt_S2_count" class="circle-md"><p>{{TTData.High}}</p></div>
+				<alarm-widget id="tt_S2_count" alarm-status="{{TTData.High}}" alarm-count="{{alarmsCount.TTStats_High}}" size="md" color="red"></alarm-widget>				
 				<h6><b>Non-service affecting (S3)</b></h6>         
-				<div id="tt_S3_count" class="triangle"><p>{{TTData.Medium}}</p></div>
+				<alarm-widget id="tt_S3_count" alarm-status="{{TTData.Medium}}" alarm-count="{{alarmsCount.TTStats_Medium}}" size="md" color="orange"></alarm-widget>				
 			</div>
 		</div> 
 	</div>

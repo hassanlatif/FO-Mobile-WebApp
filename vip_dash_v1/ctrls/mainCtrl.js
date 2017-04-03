@@ -1,17 +1,22 @@
-app.controller('mainController', ['$scope','$stateParams', '$state', '$interval', '$uibModal', '$localStorage', 'servicesAlarmData', 'RefreshPeriod', 'mapAlarmsData',
-	function($scope, $stateParams, $state, $interval, $uibModal, $localStorage, servicesAlarmData, RefreshPeriod, mapAlarmsData) {
+app.controller('mainController', ['$scope','$stateParams', '$state', '$interval', '$window', '$uibModal', '$localStorage', 'servicesAlarmData', 'RefreshPeriod', 'mapAlarmsData',
+	function($scope, $stateParams, $state, $interval, $window, $uibModal, $localStorage, servicesAlarmData, RefreshPeriod, mapAlarmsData) {
 
 		//Fetch Data
 		var alarmsData = jsonPath(servicesAlarmData, "$.alarmsData")[0];
 		$scope.newAlarmsMsg = null;
+		$scope.alarmsCount = null;
 
+
+		//Check if preivous alarms are in localStorage, if not assigne, otherwise compare
 		if ($localStorage.alarmsStore==null) {
 			$localStorage.alarmsStore = alarmsData;
+			$scope.alarmsCount = setAlarmsCount(alarmsData, {});
 		}
 		else {
 
-			oldAlarms = $localStorage.alarmsStore;
-			$scope.newAlarmsMsg = compareAlarms(oldAlarms, alarmsData);
+			var previousAlarms = $localStorage.alarmsStore;
+			$scope.newAlarmsMsg = compareAlarms(previousAlarms, alarmsData);
+			$scope.alarmsCount = setAlarmsCount(alarmsData, previousAlarms);
 			$localStorage.alarmsStore = alarmsData;
 		}
 
@@ -55,6 +60,48 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 		draw_Markers_Map(AlarmsMap, mapAlarms);
 		draw_UPE_NetStat_Chart(UtilData);
 		draw_TT_Chart($scope.TTData);
+
+		var appWindow = angular.element($window);
+
+		appWindow.bind('resize', function () {
+
+			draw_Util_Chart(UtilData);
+			draw_TT_Chart($scope.TTData);
+
+		});		
+
+		function setAlarmsCount(nAlarms, oAlarms) {	
+			var alarmsCount = {};
+
+			var oldAlarms = null;
+			var newAlarms = null;
+
+			if (!angular.equals({}, oAlarms)) {
+
+				oldAlarms = angular.copy(oAlarms);
+				newAlarms = angular.copy(nAlarms);
+
+				delete oldAlarms.Utilization;
+				delete oldAlarms.TechStats;
+				delete newAlarms.Utilization;
+				delete newAlarms.TechStats;			
+			}
+
+			for (alarmType in newAlarms) {
+				for (key in newAlarms[alarmType]) {
+					var alarmKey = alarmType + "_" + key;
+					var alarmTypeCount = 0;
+					if (!angular.equals({}, oAlarms)) {
+						alarmTypeCount = (newAlarms[alarmType][key] - oldAlarms[alarmType][key]);
+					}
+					alarmsCount[alarmKey] = alarmTypeCount;
+
+				}
+			}
+
+			console.log(alarmsCount);
+			return alarmsCount;
+		}
 
 
 		function compareAlarms(oAlarms, nAlarms) {	

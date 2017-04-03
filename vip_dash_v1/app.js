@@ -52,7 +52,39 @@ app.factory('AlarmsDataService', ['$http', 'BasePath', function($http, BasePath)
 	};
 }])
 
+app.directive('alarmWidget', function(){
 
+	return {
+		restrict: 'E',
+		templateUrl: 'alarmWidget.html',
+		scope: {
+	      alarmStatus: '@alarmStatus',
+	      alarmCount: '@alarmCount',
+	      color: '@color',
+	      size: '@size',
+	      id: '@id'
+    	},
+    	link: function(scope, element, attr) {
+    			if (scope.alarmCount > 0){
+    				scope.trendShape = 'triangle';
+    				scope.shapeColor = scope.color + '-triangle';
+    			}
+    			else if (scope.alarmCount < 0){
+    				scope.trendShape = 'triangle invert';
+    				scope.shapeColor = scope.color + '-triangle';
+    				scope.textOrient = 'invert'
+
+    			}
+    			else {
+    				scope.trendShape = 'circle-' + scope.size;
+    				scope.shapeColor = scope.color + '-circle';
+    			}
+
+    		}
+	};
+
+
+});
 
 app.filter('formatTimer', function() {
 	return function(input)
@@ -62,6 +94,27 @@ app.filter('formatTimer', function() {
 		var minutes = Math.floor(input / 60);
         //var hours = Math.floor(minutes / 60);            
         return (z(minutes)+':'+z(seconds));
+    };
+});
+
+app.filter('numberSign', function() {
+	return function(number)
+	{
+		var sign = null;
+
+		if (number > 0) {
+			sign = "+";
+			console.log("Hello");
+		}
+		else if (number < 0) {
+			sign = "";
+		}
+		else {
+			number = "";
+			sign = "";
+		}
+		
+        return (sign + number);
     };
 });
 
