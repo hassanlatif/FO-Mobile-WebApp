@@ -173,6 +173,10 @@ pre {
 	color:white;   	
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 
 .parent-col {
 	padding: 5px;
