@@ -4,16 +4,19 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 		//Fetch Data
 		var alarmsData = jsonPath(servicesAlarmData, "$.alarmsData")[0];
 		$scope.newAlarmsMsg = null;
+		$scope.alarmsCount = null;
 
 
 		//Check if preivous alarms are in localStorage, if not assigne, otherwise compare
 		if ($localStorage.alarmsStore==null) {
 			$localStorage.alarmsStore = alarmsData;
+			$scope.alarmsCount = setAlarmsCount(alarmsData, {});
 		}
 		else {
 
 			var previousAlarms = $localStorage.alarmsStore;
 			$scope.newAlarmsMsg = compareAlarms(previousAlarms, alarmsData);
+			$scope.alarmsCount = setAlarmsCount(alarmsData, previousAlarms);
 			$localStorage.alarmsStore = alarmsData;
 		}
 
@@ -67,6 +70,42 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 			draw_TT_Chart($scope.TTData);
 
 		});
+
+
+
+		function setAlarmsCount(nAlarms, oAlarms) {	
+			var alarmsCount = {};
+
+			var oldAlarms = null;
+			var newAlarms = null;
+
+			if (!angular.equals({}, oAlarms)) {
+
+				oldAlarms = angular.copy(oAlarms);
+				newAlarms = angular.copy(nAlarms);
+
+				delete oldAlarms.Utilization;
+				delete oldAlarms.TechStats;
+				delete newAlarms.Utilization;
+				delete newAlarms.TechStats;			
+			}
+
+			for (alarmType in newAlarms) {
+				for (key in newAlarms[alarmType]) {
+					var alarmKey = alarmType + "_" + key;
+					var alarmTypeCount = 0;
+					if (!angular.equals({}, oAlarms)) {
+						alarmTypeCount = (newAlarms[alarmType][key] - oldAlarms[alarmType][key]);
+					}
+					alarmsCount[alarmKey] = alarmTypeCount;
+
+				}
+			}
+
+			console.log(alarmsCount);
+			return alarmsCount;
+		}
+
 
 
 

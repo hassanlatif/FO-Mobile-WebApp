@@ -60,8 +60,26 @@ app.filter('formatTimer', function() {
 		function z(n) {return (n<10? '0' : '') + n;}
 		var seconds = input % 60;
 		var minutes = Math.floor(input / 60);
-        //var hours = Math.floor(minutes / 60);            
+        var hours = Math.floor(minutes / 60);            
         return (z(minutes)+':'+z(seconds));
     };
 });
 
+app.filter('numberSign', function() {
+	return function(number)
+	{
+		var sign = null;
+
+		if (number > 0) {
+			sign = "+";
+		}
+		else if (number < 0) {
+			sign = "";
+		}
+		else {
+			sign = "";
+		}
+		
+        return (sign + number);
+    };
+});

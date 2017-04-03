@@ -1,0 +1,103 @@
+
+.StyleHeaderRows { 
+background-color: #D30071; 
+font-weight: bold;  
+color: #FFFFFF; 
+font: 9px Verdana;
+text-align: center; 
+} 
+  
+.StyleEvenRows { 
+background-color: #FFFFFF; 
+color: #000000; 
+font: 9px Verdana;
+text-align: center; 
+} 
+
+.StyleOddRows { 
+background-color: #E0F0FF; 
+color: ; 
+font: 9px Verdana;
+text-align: center; 
+} 
+
+.StyleOddRowsTT { 
+background-color: #FFFFCC; 
+color: ; 
+font: 9px Verdana;
+text-align: center; 
+}
+
+.StyleOddRowsTTClosed { 
+background-color: #EBFFEB; 
+color: ; 
+font: 9px Verdana;
+text-align: center; 
+} 
+
+.StyleOddRowsTTOpen { 
+background-color: #EBE0FF;
+color: ; 
+font: 9px Verdana;
+text-align: center; 
+} 
+
+.StyleHoverRows { 
+background-color: #C0C0C4; 
+color: #000000;
+font-weight: bold;  
+font: 9px Verdana;
+text-align: center; 
+} 
+
+
+.StyleHeaderRowsFull { 
+background-color: #D30071; 
+font-weight: bold;  
+color: #FFFFFF; 
+font: 13px Verdana;
+text-align: center; 
+} 
+  
+.StyleEvenRowsFull { 
+background-color: #FFFFFF; 
+color: #000000; 
+font: 13px Verdana;
+text-align: center; 
+} 
+
+.StyleOddRowsFull { 
+background-color: #E0F0FF; 
+color: ; 
+font: 13px Verdana;
+text-align: center; 
+} 
+
+.StyleOddRowsTTFull { 
+background-color: #FFFFCC; 
+color: ; 
+font: 13px Verdana;
+text-align: center; 
+}
+
+.StyleOddRowsTTClosedFull { 
+background-color: #EBFFEB; 
+color: ; 
+font: 13px Verdana;
+text-align: center; 
+} 
+
+.StyleOddRowsTTOpenFull { 
+background-color: #EBE0FF;
+color: ; 
+font: 13px Verdana;
+text-align: center; 
+} 
+
+.StyleHoverRowsFull { 
+background-color: #C0C0C4; 
+color: #000000;
+font-weight: bold;  
+font: 13px Verdana;
+text-align: center; 
+} 

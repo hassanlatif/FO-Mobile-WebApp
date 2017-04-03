@@ -54,6 +54,24 @@ pre {
 
 }
 
+.up {
+
+	background-color:#fff;
+    border:2px solid red; 	
+}
+
+.down {
+	background-color:#fff;
+    border:2px solid green; 	
+}
+
+.no-change {
+	background-color:#fff;
+	/*border:2px solid rgba(255,255,0,0.7); 	*/
+    border:2px solid rgba(0,0,0,0.7); 	
+}
+
+
 
 .circle-sm {
 	width:75px;
@@ -69,7 +87,7 @@ pre {
 	font-size: 40px;
 	font-family:"Calibri";
 	font-weight: bold;
-	color:white;
+	color:black;
 }
 
 .circle-md {
@@ -86,14 +104,14 @@ pre {
 	font-size: 45px;
 	font-family:"Calibri";
 	font-weight: bold;
-	color:white;
+	color:black;
 }
 
 .circle-lg {
 	width:120px;
 	height: 120px;
 	line-height:120px;
-	border-radius: 57.5px;
+	border-radius: 50%;
 	color:white;
 	text-align:center; 
 	margin: auto; 
@@ -103,7 +121,7 @@ pre {
 	font-size: 55px;
 	font-family:"Calibri";
 	font-weight: bold;
-	color:white;
+	color:black;
 }
 
 
@@ -160,11 +178,9 @@ pre {
 	padding: 5px;
 }
 
-
 .panel-col {
 	padding: 0px;
 }
-
 
 
 .glyphicon {
@@ -179,62 +195,73 @@ pre {
 	color:red; 
 }
 
+.glyphicon-circle-arrow-down {
+	color:green; 
+}
+
+.glyphicon-minus-sign {
+	/*color:yellow; */
+	color:rgba(0,0,0,0.7);
+}
 
 #tt_S1_count{
-	background-color:rgba(0,0,0,0.7);
-	margin-top: 5%;
-	margin-bottom: 25px;
+	/*background-color:rgba(0,0,0,0.7);*/
+	/*margin-top: 5%;*/
+	margin-bottom: 10px;
 }
 
 #tt_S2_count{
-	background-color:rgba(255,0,0,1);
-	margin-top: 5%;
-	margin-bottom: 25px;
+	/*background-color:rgba(255,0,0,1);*/
+	/*margin-top: 5%;*/
+	margin-bottom: 10px;
 }
 
 #tt_S3_count {
-	border-bottom-color: orange;
-	margin-top: 5%;
+
+    /*border-bottom-color: orange; */
+	/*margin-top: 5%;*/
+	margin-bottom: 10px;	
 
 }
 
 #UPE_Net_Status{
-/*
-	background-color:#fff;
-    border:1px solid red; 	
-*/
-	background-color:rgba(255,0,0,1);
+
+	/*background-color:rgba(255,0,0,1);*/
 }
 
 #DSL_Down {
-	background-color:rgba(0,0,0,0.7);
+
+
+	/*background-color:rgba(0,0,0,0.7);*/
 }
 
 #DSL_SW_OFF {
-	background-color:rgba(255,0,0,1);
+
+	/*background-color:green;*/
 }
 
 #DSL_Unknown {
 	/*border-bottom-color: orange;  */
-	background-color:orange;
+	/*background-color:red;*/
 
 }
 
 #FTTx_Down {
-	background-color: rgba(0,0,0,0.7);
+	/*background-color: rgba(0,0,0,0.7);*/
 }
 
 #FTTx_SW_OFF {
-	background-color: rgba(255,0,0,1);
+	/*background-color: rgba(255,0,0,1);*/
 }
 
 #FTTx_Disconnect {
-	border-bottom-color: orange;
+	/*border-bottom-color: orange;*/
 }
 
 #FTTx_Never_Connected {
-	border-bottom-color: yellow;
-	
+
+ /*	border-bottom-color: yellow; */
+
 }
 
 #utilization_chart {

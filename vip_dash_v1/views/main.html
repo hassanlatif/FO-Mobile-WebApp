@@ -1,0 +1,159 @@
+<script type="text/ng-template" id="modalDialog.html">
+	<div class="modal-header">
+		<h3 class="modal-title">New alarms notification</h3>
+	</div>
+	<div class="modal-body">
+		<pre>{{newAlarmsMsg}}</pre>
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+	</div>
+</script>
+
+<div class="container-fluid" id="mainView" style="margin-top:20px">
+	<div class="row">
+		<div class="col-md-9">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="well" id="map"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-4">
+					<div class="well">		
+						<h5><b>UPE Network Status</b></h5>
+						<div class="row is-flex">
+							<div class="col-md-9 col-sm-9 panel-col">	
+								<div id="UPE_Net_Status" class="circle-lg">
+									<p>{{UPEStats.Down}}</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 panel-col">
+								<div style="position: relative; top:37%;">
+									<div class="glyphicon glyphicon-circle-arrow-down"></div>
+									<div><b>5</b></div>
+								</div>
+							</div>
+						</div> 
+						<h5><b>Down</b></h5>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="well">		
+						<h5><b>Highest Utilization (Top 5)</b></h5>
+						<div id="utilization_chart">
+						</div>		
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="well">
+						<h5><b>Trouble Tickets Stats</b></h5>					
+						<div id="tickets_chart">
+						</div>		
+
+					</div>
+				</div>            
+			</div>
+		</div>
+		<div class="col-md-3 hidden-sm">
+			<div class="well">
+				<h5><b>Trouble Ticket Statstics</b></h5>
+				<h6><b>Service Unavailable (S1)</b></h6>
+				<div id="tt_S1_count" class="circle-md"><p>{{TTData.Critical}}</p></div>
+				<h6><b>Service Degraded (S2)</b></h6>        
+				<div id="tt_S2_count" class="circle-md"><p>{{TTData.High}}</p></div>
+				<h6><b>Non-service affecting (S3)</b></h6>         
+				<div id="tt_S3_count" class="triangle"><p>{{TTData.Medium}}</p></div>
+			</div>
+		</div> 
+	</div>
+	<div class="row">
+		<div class="col-md-5">
+			<div class="well" style="padding-top: 5px;">
+				<h5 style="margin-bottom:0px;"><b>DSL Circuits Status</b></h5>	
+				<div class="row">			
+					<div class="col-md-4 col-sm-4 parent-col">
+						<h6><b>Down</b></h6>
+						<div class="row is-flex">
+							<div class="col-md-9 col-sm-9 panel-col">	
+								<div id="DSL_Down" class="circle-sm">
+									<p>{{DSLStats.Down}}</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 panel-col">
+								<div style="position: relative; top:30%";>
+									<div class="glyphicon glyphicon-circle-arrow-up"></div>
+									<div><b>1</b></div>
+								</div>
+							</div>
+						</div> 
+					</div>
+					<div class="col-md-4 col-sm-4 parent-col">
+						<h6><b>Switched off</b></h6>					
+						<div class="row is-flex">
+							<div class="col-md-9 col-sm-9 panel-col">	
+								<div id="DSL_SW_OFF" class="circle-sm">
+									<p>{{DSLStats.SwitchedOff}}</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 panel-col">
+								<div style="position: relative; top:30%";>
+									<div class="glyphicon glyphicon-circle-arrow-down"></div>
+									<div><b>2</b></div>
+								</div>
+							</div>
+						</div> 
+					</div>
+					<div class="col-md-4 col-sm-4 parent-col">
+						<h6><b>Unknown</b></h6>
+						<div class="row is-flex">
+							<div class="col-md-9 col-sm-9 panel-col">	
+								<div id="DSL_Unknown" class="circle-sm">
+									<p>{{DSLStats.Unknown}}</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 panel-col">
+								<div style="position: relative; top:30%";>
+									<div class="glyphicon glyphicon-circle-arrow-up"></div>
+									<div><b>3</b></div>
+								</div>
+							</div>
+						</div> 
+
+					</div>	
+				</div>		
+			</div>
+		</div>
+		<div class="col-md-7">
+			<div class="well" style="padding-top: 5px;">
+				<h5 style="margin-bottom:0px;"><b>FTTx Circuits Status</b></h5>	
+				<div class="row">			
+					<div class="col-md-3 col-sm-3">
+						<h6><b>Down</b></h6>					
+						<div id="FTTx_Down" class="circle-md">
+							<p>{{FTTxStats.Down}}</p>
+						</div>		
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<h6><b>Switched off</b></h6>					
+						<div id="FTTx_SW_OFF" class="circle-md">
+							<p>{{FTTxStats.SwitchedOff}}</p>
+						</div>		
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<h6><b>Disconnected</b></h6>
+						<div id="FTTx_Disconnect" class="triangle">
+							<p>{{FTTxStats.Disconnected}}</p>
+						</div>				
+					</div>	
+					<div class="col-md-3 col-sm-3">
+						<h6><b>Never connected</b></h6>
+						<div id="FTTx_Never_Connected" class="circle-md">
+							<p class="invert">{{FTTxStats.NeverConnectedOnt}}</p>
+						</div>				
+					</div>					
+				</div>		
+			</div>
+		</div>
+	</div>
+</div>

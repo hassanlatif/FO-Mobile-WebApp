@@ -2,8 +2,8 @@
     "alarmsData": {
         "TTStats": {
             "Critical": 4,
-            "High": 2,
-            "Medium": 4,
+            "High": 3,
+            "Medium": 2,
             "Low": 2
         },
         
