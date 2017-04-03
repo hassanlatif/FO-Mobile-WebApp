@@ -18,6 +18,9 @@ pre {
 	font-family: inherit;
 }
 
+#map {
+	height:250px;
+}
 
 .col-mark {
 	border: 2px solid green;
@@ -27,16 +30,6 @@ pre {
 	border: 2px solid red;
 }
 
-.row.is-flex {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2px;
-}
-.row.is-flex > [class*='col-'] {
-    display: flex;
-    flex-direction: column;
-}
-
 .well {
 	border: 1px solid grey;
 	background:rgba(255,255,255,0.7);
@@ -44,39 +37,11 @@ pre {
 	text-align: center;
 }
 
-#map {
-	height:250px;
-}
-
-
-#map.well {
-	border-radius: 5px;
-
-}
-
-
-.circle-sm {
-	width:75px;
-	height: 75px;
-	line-height: 75px;
-	border-radius: 50%;
-	color:white;
-	text-align:center;  
-	margin: auto;
-}
-
-.circle-sm p {
-	font-size: 40px;
-	font-family:"Calibri";
-	font-weight: bold;
-	color:white;
-}
-
 .circle-md {
 	width:100px;
 	height: 100px;
-	line-height: 100px;
-	border-radius: 50%;
+	line-height:100px;
+	border-radius: 50px;
 	color:white;
 	text-align:center;  
 	margin: auto;
@@ -93,7 +58,7 @@ pre {
 	width:120px;
 	height: 120px;
 	line-height:120px;
-	border-radius: 57.5px;
+	border-radius: 60px;
 	color:white;
 	text-align:center; 
 	margin: auto; 
@@ -156,30 +121,6 @@ pre {
 }
 
 
-.parent-col {
-	padding: 5px;
-}
-
-
-.panel-col {
-	padding: 0px;
-}
-
-
-
-.glyphicon {
-	font-size:30px;
-}
-
-.glyphicon-circle-arrow-down {
-	color:green; 
-}
-
-.glyphicon-circle-arrow-up {
-	color:red; 
-}
-
-
 #tt_S1_count{
 	background-color:rgba(0,0,0,0.7);
 	margin-top: 5%;
@@ -199,10 +140,6 @@ pre {
 }
 
 #UPE_Net_Status{
-/*
-	background-color:#fff;
-    border:1px solid red; 	
-*/
 	background-color:rgba(255,0,0,1);
 }
 
@@ -215,9 +152,7 @@ pre {
 }
 
 #DSL_Unknown {
-	/*border-bottom-color: orange;  */
-	background-color:orange;
-
+	border-bottom-color: orange;  
 }
 
 #FTTx_Down {
@@ -241,12 +176,4 @@ pre {
 	left: auto;
 }
 
-#header {
-		height: 33px;
-		background: grey; /* For browsers that do not support gradients */
-		background: -webkit-linear-gradient(white, #501F6E); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(white, #501F6E); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(white, #501F6E); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(#E1088D, #501F6E); /* Standard syntax (must be last) - Original: #5B3372; */
-}
 
