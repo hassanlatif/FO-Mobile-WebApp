@@ -23,7 +23,7 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 		//Bind page variables to data values
 		$scope.UPEStats = alarmsData.UPEStats;
 		$scope.DSLStats = alarmsData.DSLStats;
-		$scope.FTTxStats = alarmsData.FTTXStats;
+		$scope.FTTXStats = alarmsData.FTTXStats;
 		$scope.TTData = alarmsData.TTStats; 
 		UtilData = alarmsData.Utilization; 
 

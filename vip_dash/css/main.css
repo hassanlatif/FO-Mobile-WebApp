@@ -31,6 +31,8 @@ pre {
     display: flex;
     flex-wrap: wrap;
     margin: 2px;
+    text-align: center;
+
 }
 .row.is-flex > [class*='col-'] {
     display: flex;
@@ -173,10 +175,41 @@ pre {
 	color:white;   	
 }
 
-.col-centered{
+/*.col-centered{
     float: none;
     margin: 0 auto;
+}*/
+
+
+[class*="col-centered-"] {
+    display: block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
+
+/* Default BS breakpoints */
+@media (min-width: 768px) {
+  .col-centered-sm {
+    display: inline-block
+  }
+}
+
+@media (min-width: 992px) {
+  .col-centered-md {
+    display: inline-block
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-centered-lg {
+    display: inline-block
+  }
+}
+
+
 
 .parent-col {
 	padding: 5px;

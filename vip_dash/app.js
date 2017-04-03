@@ -73,13 +73,43 @@ app.filter('numberSign', function() {
 		if (number > 0) {
 			sign = "+";
 		}
-		else if (number < 0) {
-			sign = "";
-		}
 		else {
 			sign = "";
 		}
 		
         return (sign + number);
     };
+});
+
+
+app.directive('alarmWidget', function(){
+
+	return {
+		restrict: 'E',
+		templateUrl: 'alarmWidget.html',
+		scope: {
+	      alarmStatus: '@alarmStatus',
+	      alarmCount: '@alarmCount',
+	      shapeSize: '@shapeSize'
+    	},
+    	link: function(scope, element, attr) {
+    			if (scope.alarmCount > 0){
+    				scope.trend = 'up';
+    				scope.trendIcon = 'glyphicon-circle-arrow-up';
+
+    			}
+    			else if (scope.alarmCount < 0){
+    				scope.trend = 'down';
+    				scope.trendIcon = 'glyphicon-circle-arrow-down';
+
+    			}
+    			else {
+    				scope.trend = 'no-change';
+    				scope.trendIcon = 'glyphicon-minus-sign';
+    			}
+
+    		}
+	};
+
+
 });
