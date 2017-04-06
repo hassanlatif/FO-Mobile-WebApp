@@ -88,6 +88,7 @@ app.directive('alarmWidget', function(){
 		restrict: 'E',
 		templateUrl: 'alarmWidget.html',
 		scope: {
+		  id: '@id',
 	      alarmStatus: '@alarmStatus',
 	      alarmCount: '@alarmCount',
 	      shapeSize: '@shapeSize'

@@ -56,24 +56,6 @@ pre {
 
 }
 
-.up {
-
-	background-color:#fff;
-    border:2px solid red; 	
-}
-
-.down {
-	background-color:#fff;
-    border:2px solid green; 	
-}
-
-.no-change {
-	background-color:#fff;
-	/*border:2px solid rgba(255,255,0,0.7); 	*/
-    border:2px solid rgba(0,0,0,0.7); 	
-}
-
-
 
 .circle-sm {
 	width:75px;
@@ -175,17 +157,12 @@ pre {
 	color:white;   	
 }
 
-/*.col-centered{
-    float: none;
-    margin: 0 auto;
-}*/
-
 
 [class*="col-centered-"] {
     display: block;
     float:none;
     /* reset the text-align */
-    text-align:left;
+    text-align:center;
     /* inline-block space fix */
     margin-right:-4px;
 }
@@ -241,66 +218,91 @@ pre {
 	color:rgba(0,0,0,0.7);
 }
 
+
+.up {
+
+	background-color:#fff;
+    border:2px solid red; 	
+}
+
+.down {
+	background-color:#fff;
+    border:2px solid green; 	
+}
+
+.no-change {
+	background-color:#fff;
+    border:2px solid rgba(0,0,0,0.7); 	
+}
+
+
+/*
+#UPE_Net_Status{
+	background-color:rgba(255,0,0,1);
+}
+
+#UPE_Net_Status > p {
+	color:white;
+}
+
+
 #tt_S1_count{
-	/*background-color:rgba(0,0,0,0.7);*/
-	/*margin-top: 5%;*/
+	background-color:rgba(0,0,0,0.7);
 	margin-bottom: 10px;
 }
 
 #tt_S2_count{
-	/*background-color:rgba(255,0,0,1);*/
-	/*margin-top: 5%;*/
+	background-color:rgba(255,0,0,1);
 	margin-bottom: 10px;
 }
 
 #tt_S3_count {
 
-    /*border-bottom-color: orange; */
-	/*margin-top: 5%;*/
+    background-color: orange; 
 	margin-bottom: 10px;	
-
 }
 
-#UPE_Net_Status{
-
-	/*background-color:rgba(255,0,0,1);*/
+[id^="tt_"] > p {
+	color: white;
 }
 
 #DSL_Down {
-
-
-	/*background-color:rgba(0,0,0,0.7);*/
+	background-color:rgba(0,0,0,0.7);
 }
 
 #DSL_SW_OFF {
-
-	/*background-color:green;*/
+	background-color:red;
 }
 
 #DSL_Unknown {
-	/*border-bottom-color: orange;  */
-	/*background-color:red;*/
-
+	background-color:orange;
 }
 
-#FTTx_Down {
-	/*background-color: rgba(0,0,0,0.7);*/
+[id^="DSL_"] > p {
+	color: white;
 }
 
-#FTTx_SW_OFF {
-	/*background-color: rgba(255,0,0,1);*/
+#FTTX_Down {
+	background-color: rgba(0,0,0,0.7);
 }
 
-#FTTx_Disconnect {
-	/*border-bottom-color: orange;*/
+#FTTX_SW_OFF {
+	background-color: rgba(255,0,0,1);
 }
 
-#FTTx_Never_Connected {
-
- /*	border-bottom-color: yellow; */
-
+#FTTX_Disconnect {
+	background-color: orange;
 }
 
+#FTTX_Never_Connected {
+ 	background-color: yellow; 
+}
+
+
+[id^="FTTX_"] > p {
+	color: white;
+}
+*/
 #utilization_chart {
 	left: auto;
 }

@@ -58,6 +58,7 @@ app.directive('alarmWidget', function(){
 		restrict: 'E',
 		templateUrl: 'alarmWidget.html',
 		scope: {
+		  title: '@title',
 	      alarmStatus: '@alarmStatus',
 	      alarmCount: '@alarmCount',
 	      color: '@color',
@@ -68,11 +69,13 @@ app.directive('alarmWidget', function(){
     			if (scope.alarmCount > 0){
     				scope.trendShape = 'triangle';
     				scope.shapeColor = scope.color + '-triangle';
+    				scope.trend = 'red'    				
     			}
     			else if (scope.alarmCount < 0){
     				scope.trendShape = 'triangle invert';
     				scope.shapeColor = scope.color + '-triangle';
     				scope.textOrient = 'invert'
+    				scope.trend = 'green'
 
     			}
     			else {
@@ -92,7 +95,7 @@ app.filter('formatTimer', function() {
 		function z(n) {return (n<10? '0' : '') + n;}
 		var seconds = input % 60;
 		var minutes = Math.floor(input / 60);
-        //var hours = Math.floor(minutes / 60);            
+        var hours = Math.floor(minutes / 60);            
         return (z(minutes)+':'+z(seconds));
     };
 });
@@ -100,21 +103,17 @@ app.filter('formatTimer', function() {
 app.filter('numberSign', function() {
 	return function(number)
 	{
-		var sign = null;
 
 		if (number > 0) {
-			sign = "+";
-			console.log("Hello");
+			return "(+" + number + ")";
 		}
 		else if (number < 0) {
-			sign = "";
+			return "(" + number + ")";
 		}
 		else {
-			number = "";
-			sign = "";
+			return "";
 		}
-		
-        return (sign + number);
     };
 });
+
 

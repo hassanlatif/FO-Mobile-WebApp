@@ -22,7 +22,7 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 
 		$scope.UPEStats = alarmsData.UPEStats;
 		$scope.DSLStats = alarmsData.DSLStats;
-		$scope.FTTxStats = alarmsData.FTTXStats;
+		$scope.FTTXStats = alarmsData.FTTXStats;
 		$scope.TTData = alarmsData.TTStats; 
 		UtilData = alarmsData.Utilization; 
 
@@ -58,7 +58,7 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 		mapAlarms = jsonPath(mapAlarmsData, "$.mapMarkers")[0];
 
 		draw_Markers_Map(AlarmsMap, mapAlarms);
-		draw_UPE_NetStat_Chart(UtilData);
+		draw_Util_Chart(UtilData);
 		draw_TT_Chart($scope.TTData);
 
 		var appWindow = angular.element($window);
@@ -99,7 +99,7 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 				}
 			}
 
-			console.log(alarmsCount);
+			//console.log(alarmsCount);
 			return alarmsCount;
 		}
 
@@ -131,68 +131,98 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 		}
 
 
+
 		function draw_Markers_Map(AlarmsMap, mapAlarms){
 
-		var markers_UP = [];
-		var markers_DOWN = [];
+			var markers_UP = [];
+			var markers_DOWN = [];
 
-		for(var key in mapAlarms){
-			if (mapAlarms.hasOwnProperty(key)){
 
-				var latLng = new google.maps.LatLng(mapAlarms[key].latitude, mapAlarms[key].longitude);
+			var markerInfowindow = new google.maps.InfoWindow({
+                content: "loading..."
+            });					
 
-				if (mapAlarms[key].circuitStatus == "UP") {
-					var marker = new google.maps.Marker({
-						position: latLng,
-						icon: 'media/circuit_green.png'
-					});						
-					markers_UP.push(marker);
-				}
-				else {
-					var marker = new google.maps.Marker({
-						position: latLng,
-						icon: 'media/circuit_red.png'						
-					});					
-					markers_DOWN.push(marker);
+			for(var key in mapAlarms){
+				if (mapAlarms.hasOwnProperty(key)){
+
+					var latLng = new google.maps.LatLng(mapAlarms[key].latitude, mapAlarms[key].longitude);
+
+					if (mapAlarms[key].circuitStatus == "UP") {
+						var marker = new google.maps.Marker({
+							position: latLng,
+							icon: 'media/circuit_green.png',
+							html: '<span><b>Customer :</b>  ' + mapAlarms[key].customer + '  </span>'	+ '<br>' +
+							'<span><b>Circuit ID :</b>  ' + key														
+						});						
+
+						google.maps.event.addListener(marker, 'click', function () {
+							markerInfowindow.setContent(this.html);
+							markerInfowindow.open(AlarmsMap, this);
+
+						});						
+
+						markers_UP.push(marker);
+
+					}
+					else {
+						var marker = new google.maps.Marker({
+							position: latLng,
+							icon: 'media/circuit_red.png',
+							html: '<span><b>Customer :</b>  ' + mapAlarms[key].customer + '  </span>'	+ '<br>' +
+							'<span><b>Circuit ID :</b>  ' + key
+
+						});					
+
+						google.maps.event.addListener(marker, 'click', function () {
+							markerInfowindow.setContent(this.html);
+							markerInfowindow.open(AlarmsMap, this);
+
+						});						
+
+						markers_DOWN.push(marker);
+					}
 				}
 			}
-		}
 
-		var clusterStyles_UP = [
-		{   
-			url: 'media/cluster_green.png',
-			height: 55,
-			width: 55,
-			anchor: [0, 0],
-			textColor: '#ffffff',
-			textSize: 11
-		}, ];		
+			var clusterStyles_UP = [
+			{   
+				url: 'media/cluster_green.png',
+				height: 55,
+				width: 55,
+				anchor: [0, 0],
+				textColor: '#ffffff',
+				textSize: 11
+			}, ];		
 
-		var options_UP = {
-			styles: clusterStyles_UP
+			var options_UP = {
+				styles: clusterStyles_UP,
+				maxZoom: 18
+
+			};
+
+			var clusterStyles_DOWN = [
+			{   
+				url: 'media/cluster_red.png',
+				height: 55,
+				width: 55,
+				anchor: [0, 0],
+				textColor: '#ffffff',
+				textSize: 11
+			}];		
+
+			var options_DOWN = {
+				styles: clusterStyles_DOWN,
+				maxZoom: 18			
+			};
+
+			var markerCluster_UP = new MarkerClusterer(AlarmsMap, markers_UP, options_UP);
+			var markerCluster_DOWN = new MarkerClusterer(AlarmsMap, markers_DOWN, options_DOWN);
+
 		};
 
-		var clusterStyles_DOWN = [
-		{   
-			url: 'media/cluster_red.png',
-			height: 55,
-			width: 55,
-			anchor: [0, 0],
-			textColor: '#ffffff',
-			textSize: 11
-		}];		
-
-		var options_DOWN = {
-			styles: clusterStyles_DOWN
-		};
-
-		var markerCluster_UP = new MarkerClusterer(AlarmsMap, markers_UP, options_UP);
-		var markerCluster_DOWN = new MarkerClusterer(AlarmsMap, markers_DOWN, options_DOWN);
-
-	};
 
 
-	function draw_UPE_NetStat_Chart(Utilization_data) {
+	function draw_Util_Chart(Utilization_data) {
 
 		var util_array = [['Circuit Name', 'Value']];
 		for (var key in Utilization_data) {

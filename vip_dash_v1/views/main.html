@@ -11,11 +11,10 @@
 </script>
 
 <script type="text/ng-template" id="alarmWidget.html">
-
+	<h4><b>{{title}} <b class="{{trend}}">{{alarmCount | numberSign}}</b></b></h4>
 	<div id="{{id}}" class="{{trendShape}} {{shapeColor}}">
 		<p class="{{textOrient}}">{{alarmStatus}}</p>
 	</div>
-	<div class="trend"><b>{{alarmCount | numberSign}}</b></div>
 
 </script>
 
@@ -30,8 +29,8 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
 					<div class="well">			
-						<h5><b>UPE Network Status (Down)</b></h5>
-						<alarm-widget id="UPE_Net_Status" alarm-status="{{UPEStats.Down}}" alarm-count="{{alarmsCount.UPEStats_Down}}" size="lg" color="red"></alarm-widget>
+						<alarm-widget title= "UPE Network Status" id="UPE_Net_Status" alarm-status="{{UPEStats.Down}}" alarm-count="{{alarmsCount.UPEStats_Down}}" size="lg" color="red"></alarm-widget>
+						<h5><b>Down</b></h5>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
@@ -54,69 +53,46 @@
 		<div class="col-md-3 hidden-sm">
 			<div class="well">
 				<h5><b>Trouble Ticket Statstics</b></h5>
-				<h6><b>Service Unavailable (S1)</b></h6>
-				<alarm-widget id="tt_S1_count" alarm-status="{{TTData.Critical}}" alarm-count="{{alarmsCount.TTStats_Critical}}" size="md" color="black"></alarm-widget>
-
-				<h6><b>Service Degraded (S2)</b></h6>        
-				<alarm-widget id="tt_S2_count" alarm-status="{{TTData.High}}" alarm-count="{{alarmsCount.TTStats_High}}" size="md" color="red"></alarm-widget>				
-				<h6><b>Non-service affecting (S3)</b></h6>         
-				<alarm-widget id="tt_S3_count" alarm-status="{{TTData.Medium}}" alarm-count="{{alarmsCount.TTStats_Medium}}" size="md" color="orange"></alarm-widget>				
+				<alarm-widget title="Service Unavailable - S1" id="tt_S1_count" alarm-status="{{TTData.Critical}}" alarm-count="{{alarmsCount.TTStats_Critical}}" size="md" color="black"></alarm-widget>
+				<div style="padding-top: 10px;"></div>
+				<alarm-widget title="Service Degraded - S2" id="tt_S2_count" alarm-status="{{TTData.High}}" alarm-count="{{alarmsCount.TTStats_High}}" size="md" color="red"></alarm-widget>				
+				<div style="padding-top: 10px;"></div>
+				<alarm-widget title="Non-service affecting - S3" id="tt_S3_count" alarm-status="{{TTData.Medium}}" alarm-count="{{alarmsCount.TTStats_Medium}}" size="md" color="orange"></alarm-widget>				
 			</div>
 		</div> 
 	</div>
 	<div class="row">
 		<div class="col-md-5">
 			<div class="well" style="padding-top: 5px;">
-				<h5 style="margin-bottom:0px;"><b>DSL Circuits Status</b></h5>	
+				<h5 style="margin-bottom: 0px;"><b>DSL Circuits Status</b></h5>	
 				<div class="row">			
 					<div class="col-md-4 col-sm-4">
-						<h6><b>Down</b></h6>					
-						<div id="DSL_Down" class="circle-md">
-							<p>{{DSLStats.Down}}</p>
-						</div>		
+						<alarm-widget title="Down" id="DSL_Down" alarm-status="{{DSLStats.Down}}" alarm-count="{{alarmsCount.DSLStats_Down}}" size="md" color="black"></alarm-widget>				
 					</div>
 					<div class="col-md-4 col-sm-4">
-						<h6><b>Switched off</b></h6>					
-						<div id="DSL_SW_OFF" class="circle-md">
-							<p>{{DSLStats.SwitchedOff}}</p>
-						</div>		
+						<alarm-widget title="SW Off" id="DSL_SW_OFF" alarm-status="{{DSLStats.SwitchedOff}}" alarm-count="{{alarmsCount.DSLStats_SwitchedOff}}" size="md" color="red"></alarm-widget>				
 					</div>
 					<div class="col-md-4 col-sm-4">
-						<h6><b>Unknown</b></h6>
-						<div id="DSL_Unknown" class="triangle">
-							<p>{{DSLStats.Unknown}}</p>
-						</div>				
+						<alarm-widget title="Unknown" id="DSL_Unknown" alarm-status="{{DSLStats.Unknown}}" alarm-count="{{alarmsCount.DSLStats_Unknown}}" size="md" color="orange"></alarm-widget>									
 					</div>	
 				</div>		
 			</div>
 		</div>
 		<div class="col-md-7">
 			<div class="well" style="padding-top: 5px;">
-				<h5 style="margin-bottom:0px;"><b>FTTx Circuits Status</b></h5>	
+				<h5 style="margin-bottom: 0px;""><b>FTTX Circuits Status</b></h5>	
 				<div class="row">			
 					<div class="col-md-3 col-sm-3">
-						<h6><b>Down</b></h6>					
-						<div id="FTTx_Down" class="circle-md">
-							<p>{{FTTxStats.Down}}</p>
-						</div>		
+					<alarm-widget title="Down" id="FTTX_Down" alarm-status="{{FTTXStats.Down}}" alarm-count="{{alarmsCount.FTTXStats_Down}}" size="md" color="black"></alarm-widget>	
 					</div>
 					<div class="col-md-3 col-sm-3">
-						<h6><b>Switched off</b></h6>					
-						<div id="FTTx_SW_OFF" class="circle-md">
-							<p>{{FTTxStats.SwitchedOff}}</p>
-						</div>		
+					<alarm-widget title="SW Off" id="FTTX_SW_OFF" alarm-status="{{FTTXStats.SwitchedOff}}" alarm-count="{{alarmsCount.FTTXStats_SwitchedOff}}" size="md" color="red"></alarm-widget>	
 					</div>
 					<div class="col-md-3 col-sm-3">
-						<h6><b>Disconnected</b></h6>
-						<div id="FTTx_Disconnect" class="triangle">
-							<p>{{FTTxStats.Disconnected}}</p>
-						</div>				
+					<alarm-widget title="Discontd." id="FTTX_Disconnect" alarm-status="{{FTTXStats.Disconnected}}" alarm-count="{{alarmsCount.FTTXStats_Disconnected}}" size="md" color="orange"></alarm-widget>	
 					</div>	
 					<div class="col-md-3 col-sm-3">
-						<h6><b>Never connected</b></h6>
-						<div id="FTTx_Never_Connected" class="triangle invert">
-							<p class="invert">{{FTTxStats.NeverConnectedOnt}}</p>
-						</div>				
+					<alarm-widget title="Never contd." id="FTTX_Never_Connected" alarm-status="{{FTTXStats.NeverConnectedOnt}}" alarm-count="{{alarmsCount.FTTXStats_NeverConnectedOnt}}" size="md" color="yellow"></alarm-widget>	
 					</div>					
 				</div>		
 			</div>
