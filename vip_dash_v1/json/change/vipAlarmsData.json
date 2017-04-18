@@ -1,25 +1,25 @@
 {
     "alarmsData": {
         "TTStats": {
-            "Critical": 12,
-            "High": 11,
-            "Medium": 25,
+            "Critical": 5,
+            "High": 12,
+            "Medium": 2,
             "Low": 2
         },
         
         "DSLStats": {
             "Up": 24,
-            "Down": 13,
-            "SwitchedOff": 4,
-            "Unknown": 12
+            "Down": 23,
+            "SwitchedOff": 14,
+            "Unknown": 22
         },
         
         "FTTXStats": {
             "Up": 2,
-            "Down": 27,
-            "SwitchedOff": 24,
-            "NeverConnectedOnt": 2,
-            "Disabled": 17,
+            "Down": 17,
+            "SwitchedOff": 34,
+            "NeverConnectedOnt": 22,
+            "Disabled": 1,
             "Disconnected": 1,
             "Unknown": 0
         },

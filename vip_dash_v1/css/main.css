@@ -22,6 +22,12 @@ pre {
 	height:250px;
 }
 
+#map.well {
+	border-radius: 10px;
+
+}
+
+
 .col-mark {
 	border: 2px solid green;
 }
@@ -39,10 +45,10 @@ pre {
 
 
 .circle-md {
-	width:100px;
-	height: 100px;
-	line-height:100px;
-	border-radius: 50px;
+	width:95px;
+	height: 95px;
+	line-height: 95px;
+	border-radius: 50%;
 	color:white;
 	text-align:center;  
 	margin: auto;
@@ -56,10 +62,10 @@ pre {
 }
 
 .circle-lg {
-	width:120px;
-	height: 120px;
-	line-height:120px;
-	border-radius: 60px;
+	width:115px;
+	height: 115px;
+	line-height:115px;
+	border-radius: 50%;
 	color:white;
 	text-align:center; 
 	margin: auto; 
@@ -97,9 +103,9 @@ pre {
 .triangle {
 	width: 0;
 	height: 0;
-	border-left: 55px solid transparent;
-	border-right: 55px solid transparent;
-	border-bottom: 100px solid black;  
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 95px solid black;  
 	margin: auto;
 }
 
@@ -149,7 +155,7 @@ pre {
 .invert p {
 	text-align: center;
 	padding-top: 5px;
-	top: 50px;
+	top: 45px;
 	left: -50px;
 	width: 100px;
 	height: 100px;
@@ -229,7 +235,6 @@ b.green {
 
 
 #header {
-		height: 33px;
 		background: grey; /* For browsers that do not support gradients */
 		background: -webkit-linear-gradient(white, #501F6E); /* For Safari 5.1 to 6.0 */
 		background: -o-linear-gradient(white, #501F6E); /* For Opera 11.1 to 12.0 */
@@ -237,6 +242,12 @@ b.green {
 		background: linear-gradient(#E1088D, #501F6E); /* Standard syntax (must be last) - Original: #5B3372; */
 }
 
+
+@media (min-width: 768px) {
+  #header {
+    height: 30px;
+  }
+}
 
 
 
