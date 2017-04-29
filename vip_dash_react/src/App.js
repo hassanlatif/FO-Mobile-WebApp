@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import AlarmWidget from './components/AlarmWidget';
+import GoogleMapWidget from './components/GoogleMapWidget';
 
 class App extends Component {
 
@@ -15,7 +16,7 @@ class App extends Component {
     <div className="col-md-9">
       <div className="row">
         <div className="col-md-12">
-          <div className="well" id="map"></div>
+          <GoogleMapWidget />
         </div>
       </div>
       <div className="row">

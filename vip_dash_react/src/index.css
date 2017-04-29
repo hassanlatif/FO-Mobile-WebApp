@@ -29,6 +29,12 @@ pre {
 	height:250px;
 }
 
+
+#map.well {
+	border-radius: 10px;
+
+}
+
 .col-mark {
 	border: 2px solid green;
 }
