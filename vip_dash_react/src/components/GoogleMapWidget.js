@@ -5,15 +5,17 @@ import ReactDOM from 'react-dom';
 export default class GoogleMapWidget extends Component {
 
 	componentDidMount() {
-		var mapOptions = {
+
+		const mapOptions = {
 			center: this.mapCenterLatLng(),
 			zoom: this.props.initialZoom,
 			mapTypeId: window.google.maps.MapTypeId.TERRAIN
 
 		};
 
-		var map = new window.google.maps.Map(ReactDOM.findDOMNode(this), mapOptions);
-		var marker = new window.google.maps.Marker({position: this.mapCenterLatLng(), title: 'Hi', map: map});
+		let map = new window.google.maps.Map(ReactDOM.findDOMNode(this), mapOptions);
+		let marker = new window.google.maps.Marker({position: this.mapCenterLatLng(), title: 'Hi', map: map});
+		
 		this.setState({map: map});
 	}
 
