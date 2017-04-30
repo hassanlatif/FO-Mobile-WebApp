@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
 import AlarmWidget from './components/AlarmWidget';
-import GoogleMapWidget from './components/GoogleMapWidget';
+import GoogleMap from './components/GoogleMap';
+import UtilizationChart from './components/UtilizationChart';
+import FaultChart from './components/FaultChart';
 
 class App extends Component {
 
@@ -10,13 +13,14 @@ class App extends Component {
   
 
   return (
+  <div>
+  <Header />
   <div className="container-fluid" style={{marginTop : "20px"}}>
-
   <div className="row">
     <div className="col-md-9">
       <div className="row">
         <div className="col-md-12">
-          <GoogleMapWidget />
+          <GoogleMap />
         </div>
       </div>
       <div className="row">
@@ -30,15 +34,13 @@ class App extends Component {
         <div className="col-md-4 col-sm-4">
           <div className="well">    
             <h5><b>Highest Utilization (Top 5)</b></h5>
-            <div id="utilization_chart">
-            </div>    
+            <UtilizationChart />
           </div>
         </div>
         <div className="col-md-4 col-sm-4">
           <div className="well">
             <h5><b>Trouble Tickets Stats</b></h5>         
-            <div id="tickets_chart">
-            </div>    
+            <FaultChart />
           </div>
         </div>            
       </div>
@@ -101,7 +103,7 @@ class App extends Component {
       </div>
     </div>
   </div>
-
+  </div>
   </div>
     );
   }
