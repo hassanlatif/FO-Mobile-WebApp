@@ -107,8 +107,8 @@ app.controller('mainController', ['$scope','$stateParams', '$state', '$interval'
 		function compareAlarms(oAlarms, nAlarms) {	
 			var newAlarmsStr = "";
 
-			var oldAlarms = Object.create(oAlarms);
-			var newAlarms = Object.create(nAlarms);
+			var oldAlarms = angular.copy(oAlarms);
+			var newAlarms = angular.copy(nAlarms);
 			delete oldAlarms.Utilization;
 			delete oldAlarms.TechStats;
 			delete newAlarms.Utilization;

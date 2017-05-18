@@ -5,16 +5,15 @@ import Header from './components/Header';
 import AlarmWidget from './components/AlarmWidget';
 import GoogleMap from './components/GoogleMap';
 import UtilizationChart from './components/UtilizationChart';
-import FaultChart from './components/FaultChart';
+import TTChart from './components/TTChart';
 
 class App extends Component {
 
   render() {
-  
 
   return (
   <div>
-  <Header />
+  
   <div className="container-fluid" style={{marginTop : "20px"}}>
   <div className="row">
     <div className="col-md-9">
@@ -34,13 +33,13 @@ class App extends Component {
         <div className="col-md-4 col-sm-4">
           <div className="well">    
             <h5><b>Highest Utilization (Top 5)</b></h5>
-            <UtilizationChart />
+
           </div>
         </div>
         <div className="col-md-4 col-sm-4">
           <div className="well">
             <h5><b>Trouble Tickets Stats</b></h5>         
-            <FaultChart />
+            <TTChart />
           </div>
         </div>            
       </div>

@@ -9,8 +9,10 @@ var app = angular.module('app', ['ui.router', 'ui.bootstrap','ngStorage']);
 app.constant('BasePath', "");
 app.constant('RefreshPeriod', 300);
 
-app.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
+app.config(['$urlRouterProvider', '$stateProvider', '$locationProvider', function($urlRouterProvider, $stateProvider, $locationProvider) {
 	$urlRouterProvider.otherwise('/');
+	// $locationProvider.html5Mode(true);
+
 	$stateProvider
 	.state('main', {
 		url: '/',
@@ -50,7 +52,49 @@ app.factory('AlarmsDataService', ['$http', 'BasePath', function($http, BasePath)
 		}
 
 	};
-}])
+}]);
+
+
+
+app.factory('ChartService', function() {
+    return {
+        
+        /**
+         * Loads the visualization module from the Google Charts API 
+         * if available
+         * @returns {boolean} - Returns true is successful, or false 
+         * if not available
+         */
+        loadGoogleVisualization: function() {
+            
+            // Using a try/catch block to guard against unanticipated 
+            // errors when loading the visualization lib
+            try {
+
+                // Arbitrary callback required in google.load() to 
+                // support loading after initial page rendering
+                google.load('visualization', '1', {
+                    'callback':'console.log(\'success:corechart\');', 
+                    'packages':['corechart']
+                });
+
+                google.load('visualization', '1', {
+                    'callback':'console.log(\'success:barchart\');', 
+                    'packages':['bar']
+                });
+
+              
+                return true;
+            
+            } catch(e) {
+                console.log('Could not load Google lib', e);
+                return false;  
+            }
+
+        }
+    };
+});
+
 
 app.directive('alarmWidget', function(){
 
