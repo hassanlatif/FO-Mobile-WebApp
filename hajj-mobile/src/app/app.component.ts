@@ -9,18 +9,19 @@ import { Component, OnInit, Output } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'Hajj Mobile dashboard';
-  serviceAlarms: Alarms = null;// = {UPEStats: {Down: 0} };
+  alarms: Alarms;
 
-  constructor(alarmsService: AlarmsService) {
-    this.getAlarms();
+  constructor(private alarmsService: AlarmsService) {
+
   }
 
   ngOnInit() {
+    this.getAlarms();
   }
   
   getAlarms() {
      this.alarmsService.getAlarms().subscribe(
-       (data : any) => {this.serviceAlarms = data.alarmsData; console.log(this.serviceAlarms);},
+       (alarms: Alarms) => {this.alarms = alarms; console.log(this.alarms);},
        (error) => console.log("Error fetching alarms:", error)
      )
 

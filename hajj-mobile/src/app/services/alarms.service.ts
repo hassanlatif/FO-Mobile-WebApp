@@ -14,8 +14,8 @@ export class AlarmsService {
     getAlarms(): Observable<Alarms> {
         return this.http.get('assets/hajjAlarmsData.json')
         .map((response : Response) => {
-                const alarmsData = response.json();
-                return alarmsData;
+                const data = response.json();
+                return data.alarmsData;
             }
         )
         .catch(

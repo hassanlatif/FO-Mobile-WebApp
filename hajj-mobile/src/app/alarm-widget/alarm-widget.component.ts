@@ -9,6 +9,7 @@ export class AlarmWidgetComponent implements OnInit {
 
   @Input() title: string;
   @Input('alarm-count') alarmCount: number;
+  @Input() id: string;
 
   constructor() { }
 
