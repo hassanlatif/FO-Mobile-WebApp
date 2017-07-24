@@ -9,11 +9,25 @@ export class AlarmWidgetComponent implements OnInit {
 
   @Input() title: string;
   @Input('alarm-count') alarmCount: number;
+  @Input('alarm-status') alarmStatus: string;
   @Input() id: string;
+  @Input() size: string;
+  @Input() color: string;
+
+  shapeClass: string;
+  shapeSize: string;
+
 
   constructor() { }
 
   ngOnInit() {
+
+    this.shapeClass = this.color + '-circle';
+    this.shapeSize = 'circle-' + this.size;
+
+    console.log(this.shapeClass, this.shapeSize);
+
+
   }
 
 }
