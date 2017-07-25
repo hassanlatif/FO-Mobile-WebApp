@@ -3,22 +3,22 @@
         "TTStats": {
             "Critical": 10,
             "High": 11,
-            "Medium": 25,
+            "Medium": 5,
             "Low": 2
         },
         
         "DSLStats": {
-            "Up": 24,
-            "Down": 13,
-            "SwitchedOff": 4,
-            "Unknown": 12
+            "Up": 10,
+            "Down": 10,
+            "SwitchedOff": 15,
+            "Unknown": 5
         },
         
         "FTTXStats": {
-            "Up": 2,
-            "Down": 27,
-            "SwitchedOff": 24,
-            "NeverConnectedOnt": 2,
+            "Up": 20,
+            "Down": 17,
+            "SwitchedOff": 4,
+            "NeverConnectedOnt": 12,
             "Disabled": 17,
             "Disconnected": 1,
             "Unknown": 0

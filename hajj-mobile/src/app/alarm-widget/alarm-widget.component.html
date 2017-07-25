@@ -1,4 +1,4 @@
-	<h4><b>{{title}} <b class=""> {{alarmStatus}} </b></b></h4>
-	<div id="{{id}}" [ngClass]="[shapeClass, shapeSize]">
-		<p class=""> {{alarmCount}} </p>
+	<h4><b>{{title}} <b [ngClass]="trendColor"> {{alarmStatus | trendSign}} </b></b></h4>
+	<div id="{{id}}" [ngClass]="[trendShape, shapeColor]">
+		<p [ngClass]="textOrient"> {{alarmCount}} </p>
 	</div>
