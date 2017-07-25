@@ -11,13 +11,14 @@ export class AlarmsService {
 
     }
 
-    getAlarms(): Observable<Alarms> {
-        return this.http.get('assets/hajjAlarmsData.json')
+    getAlarms() {
+        return Observable.timer(0, 10000)
+        .flatMap((i) =>  this.http.get('assets/hajjAlarmsData.json' )
         .map((response : Response) => {
                 const data = response.json();
                 return data.alarmsData;
             }
-        )
+        ))
         .catch(
             (error : Response) => {
                 console.log(error);

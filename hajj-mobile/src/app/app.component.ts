@@ -21,9 +21,13 @@ export class AppComponent implements OnInit {
   
   getAlarms() {
      this.alarmsService.getAlarms().subscribe(
-       (alarms: Alarms) => {this.alarms = alarms; console.log(this.alarms);},
+       (alarms: Alarms) => {
+        console.log(this.alarms);
+        this.alarms = alarms
+        console.log(this.alarms);
+        },
        (error) => console.log("Error fetching alarms:", error)
-     )
+     );
 
   }
   
