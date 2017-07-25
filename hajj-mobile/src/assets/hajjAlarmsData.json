@@ -1,7 +1,7 @@
 {
     "alarmsData": {
         "TTStats": {
-            "Critical": 12,
+            "Critical": 10,
             "High": 11,
             "Medium": 25,
             "Low": 2
@@ -26,7 +26,7 @@
 
         "UPEStats": {
             "Up": 1,
-            "Down": 19
+            "Down": 15
         },
         
         "TechStats": {
