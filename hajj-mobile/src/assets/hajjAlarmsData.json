@@ -1,8 +1,8 @@
 {
     "alarmsData": {
         "TTStats": {
-            "Critical": 10,
-            "High": 11,
+            "Critical": 2,
+            "High": 3,
             "Medium": 5,
             "Low": 2
         },
@@ -40,7 +40,7 @@
         },
         
         "Utilization": {
-            "NJRNJNEE-NJRNJNEE_IP1": 304,
+            "NJRNJNEE-NJRNJNEE_IP1": 50,
             "QASSIM-RIYADH_PLL1": 83.04277,
             "BADA03-BURA01_PLL3": 93.01829,
             "BADA03-BURA01_PLL2": 90.29032,

@@ -44,6 +44,7 @@ ngOnChanges(changes: any): void {
   Observable
     .interval(500)
     .skipWhile((s) => this.chartInputData == null)
+    .take(1)
     .subscribe(() => {
       if (this.chartId === "utilization") {
         let util_array = [['Circuit Name', 'Value']];
@@ -60,7 +61,7 @@ ngOnChanges(changes: any): void {
         };
       }
       else if (this.chartId === "troubleticket") {
-
+        // console.log(this.chartInputData);
         let tt_array = [
           ['Severity', 'Tickets', { role: 'style' }],
           ['Critical', this.chartInputData.Critical, '#DC3912'],
