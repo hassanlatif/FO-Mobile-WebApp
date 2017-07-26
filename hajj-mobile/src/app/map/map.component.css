@@ -1,0 +1,10 @@
+agm-map {
+    height:250px;
+    border-radius: 10px;
+}
+
+#map.well {
+    border-radius: 10px;
+    padding: 0px;
+
+}

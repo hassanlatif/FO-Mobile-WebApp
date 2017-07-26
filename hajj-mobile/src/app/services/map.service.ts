@@ -11,15 +11,21 @@ export class MapService {
     }
 
     getMapMarkers() {
-        return this.http.get('assets/hajjMapMarkers.json')
+        return Observable.timer(0, 10000)
+        .flatMap((i) =>  this.http.get('assets/hajjMapMarkers.json')
         .map((response : Response) => {
-                const markersData = response.json();
+                let markersJson = response.json();
+                const markersData = markersJson.mapMarkers;
                 let markers = [];
-                for (const group in markersData) {
-                    if (markersData.hasOwnProperty(group)) {
-                        markers = markers.concat(markersData[group]);
+                // console.log(markersData);
+                for (const circuit in markersData) {
+                    if (markersData.hasOwnProperty(circuit)) {
+                        markersData[circuit].circuitName = circuit;
+                        var marker = markersData[circuit];
+                        markers.push(marker);
                     }
                 }
+                
                 return markers;
             }
         )
@@ -28,7 +34,7 @@ export class MapService {
                 console.log(error);
                 return Observable.throw('Error fetching markers data.');
             }
-        );     
+        ));     
     }
 
 }

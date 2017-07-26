@@ -1,4 +1,4 @@
-import { Alarms } from './interfaces/alarms';
+import { MapService } from './services/map.service';
 import { AlarmsService } from './services/alarms.service';
 import { Component, OnInit, Output } from '@angular/core';
 import * as _ from "lodash";
@@ -11,28 +11,40 @@ import * as _ from "lodash";
 })
 export class AppComponent implements OnInit {
   title = 'Hajj Mobile dashboard';
-  alarms: Alarms;
+  alarms: any;
   alarmsTrend: any;
+  mapMarkers: any;
 
 
-  constructor(private alarmsService: AlarmsService) {
+  constructor(private alarmsService: AlarmsService, private mapService: MapService) {
 
   }
 
   ngOnInit() {
+    this.getMarkers();
     this.getAlarms();
+  }
+
+  getMarkers() {
+    this.mapService.getMapMarkers().subscribe(
+      (markers: any) => {
+        this.mapMarkers = markers
+        // console.log(this.mapMarkers);
+        },
+       (error) => console.log("Error fetching markers:", error)
+    );
+
   }
   
   getAlarms() {
      this.alarmsService.getAlarms().subscribe(
-       (newAlarms: Alarms) => {
+       (newAlarms) => {
 
         if (newAlarms && this.alarms) {
           this.getAlarmsTrend(newAlarms, this.alarms)         
         }
 
         this.alarms = newAlarms
- 
         },
        (error) => console.log("Error fetching alarms:", error)
      );
@@ -70,7 +82,7 @@ export class AppComponent implements OnInit {
 				}
 			}
 
-			console.log(alarmsCount);
+			// console.log(alarmsCount);
 			this.alarmsTrend = alarmsCount;
 		}  
   

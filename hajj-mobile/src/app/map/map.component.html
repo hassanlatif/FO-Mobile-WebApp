@@ -1,3 +1,8 @@
-<p>
-  map works!
-</p>
+<div class="well" id="map">
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+  <!-- <agm-marker *ngFor="let marker of markers" [latitude]="marker.latitude" [longitude]="marker.longitude"></agm-marker> -->
+<marker-cluster [points]="markers_UP" color="green"></marker-cluster>
+<marker-cluster [points]="markers_DOWN" color="red"></marker-cluster>
+</agm-map>
+
+</div>

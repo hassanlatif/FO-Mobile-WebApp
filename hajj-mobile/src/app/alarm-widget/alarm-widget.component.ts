@@ -5,7 +5,7 @@ import { Component, OnInit, OnChanges, Input } from '@angular/core';
   templateUrl: './alarm-widget.component.html',
   styleUrls: ['./alarm-widget.component.css']
 })
-export class AlarmWidgetComponent implements OnInit {
+export class AlarmWidgetComponent implements OnInit, OnChanges {
 
   @Input() title: string;
   @Input('alarm-count') alarmCount: number;
@@ -27,7 +27,7 @@ export class AlarmWidgetComponent implements OnInit {
     this.trendShape = this.color + '-circle';
     this.shapeSize = 'circle-' + this.size;
 
-    console.log(this.trendShape, this.shapeSize);
+    // console.log(this.trendShape, this.shapeSize);
   
   }
 
@@ -52,7 +52,7 @@ export class AlarmWidgetComponent implements OnInit {
           this.trendColor = 'black'            
       }
           
-      console.log("Changes", changes)
+      // console.log("Changes", changes)
 
   }
 
