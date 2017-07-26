@@ -45,6 +45,8 @@ export class AppComponent implements OnInit {
         }
 
         this.alarms = newAlarms
+        console.log(this.alarms);
+        
         },
        (error) => console.log("Error fetching alarms:", error)
      );
