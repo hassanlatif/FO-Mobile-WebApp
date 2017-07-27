@@ -1,7 +1,7 @@
 import { ModalComponent } from './modal/modal.component';
 import { MapService } from './services/map.service';
 import { AlarmsService } from './services/alarms.service';
-import { Component, OnInit, Output, ViewChild, ContentChild, AfterContentInit } from '@angular/core';
+import { Component, OnInit, Output, ViewChild } from '@angular/core';
 import * as _ from "lodash";
 
 
@@ -10,7 +10,7 @@ import * as _ from "lodash";
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit, AfterContentInit {
+export class AppComponent implements OnInit {
   title = 'Hajj Mobile dashboard';
   alarms: any;
   alarmsTrend: any;
@@ -29,15 +29,11 @@ export class AppComponent implements OnInit, AfterContentInit {
     this.getAlarms();
   }
 
-  ngAfterContentInit() {
-
-  }
 
   getMarkers() {
     this.mapService.getMapMarkers().subscribe(
       (markers: any) => {
         this.mapMarkers = markers
-        // console.log(this.mapMarkers);
       },
       (error) => console.log("Error fetching markers:", error)
     );
@@ -49,8 +45,8 @@ export class AppComponent implements OnInit, AfterContentInit {
       (newAlarms) => {
 
         if (newAlarms && this.alarms) {
-          this.getAlarmsTrend(newAlarms, this.alarms);
-          this.alarmsMsg = this.getNewAlarmsCount(this.alarms, newAlarms);          
+           this.alarmsTrend = this.getAlarmsTrend(newAlarms, this.alarms);
+           this.alarmsMsg = this.getNewAlarmsCount(this.alarms, newAlarms);          
         }
 
         this.alarms = newAlarms;
@@ -101,7 +97,7 @@ export class AppComponent implements OnInit, AfterContentInit {
   }
 
 
-  getAlarmsTrend(nAlarms, oAlarms) {
+  getAlarmsTrend(nAlarms, oAlarms): any {
     var alarmsCount = {};
 
     var oldAlarms = null;
@@ -131,7 +127,7 @@ export class AppComponent implements OnInit, AfterContentInit {
     }
 
     // console.log(alarmsCount);
-    this.alarmsTrend = alarmsCount;
+   return alarmsCount;
   }
 
 
