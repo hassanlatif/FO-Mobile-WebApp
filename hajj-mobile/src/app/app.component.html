@@ -1,12 +1,12 @@
 <app-modal #modalAlarms>
 	<div class="app-modal-header">
-		New alarms notification
+		<h3>New alarms notification</h3>
 	</div>
 	<div class="app-modal-body">
 		<pre>{{(alarmsMsg && alarmsMsg!=null)? alarmsMsg : 'No new alarms'}}</pre>
 	</div>
 	<div class="app-modal-footer">
-		<button type="button" class="btn btn-default" (click)="modalAlarms.hide()">Close</button>
+		<button type="button" class="btn btn-primary" (click)="modalAlarms.hide()">Close</button>
 	</div>
 </app-modal>
 
