@@ -18,6 +18,7 @@ import { AppComponent } from './app.component';
 import { AlarmWidgetComponent } from './alarm-widget/alarm-widget.component';
 import { MapComponent } from './map/map.component';
 import { ChartComponent } from './chart/chart.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ChartComponent } from './chart/chart.component';
     MapComponent,
     TrendSignPipe,
     MarkerClusterDirective,
-    ChartComponent
+    ChartComponent,
+    ModalComponent
 
   ],
   imports: [

@@ -42,7 +42,7 @@ export class ChartComponent implements OnInit, OnChanges {
 ngOnChanges(changes: any): void {
 
   Observable
-    .interval(500)
+    .interval(250)
     .skipWhile((s) => this.chartInputData == null)
     .take(1)
     .subscribe(() => {

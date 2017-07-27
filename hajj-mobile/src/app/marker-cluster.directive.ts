@@ -50,7 +50,7 @@ export class MarkerClusterDirective implements OnInit, OnChanges {
 
       // console.log(this.points)
       Observable
-        .interval(500)
+        .interval(250)
         .skipWhile((s) => this.points == null)
         .take(1)
         .subscribe(() => {

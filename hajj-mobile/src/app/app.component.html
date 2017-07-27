@@ -1,125 +1,112 @@
+<app-modal #modalAlarms>
+	<div class="app-modal-header">
+		New alarms notification
+	</div>
+	<div class="app-modal-body">
+		<pre>{{(alarmsMsg && alarmsMsg!=null)? alarmsMsg : 'No new alarms'}}</pre>
+	</div>
+	<div class="app-modal-footer">
+		<button type="button" class="btn btn-default" (click)="modalAlarms.hide()">Close</button>
+	</div>
+</app-modal>
+
 <div class="container-fluid" id="mainView" style="margin-top:20px">
 	<div class="row">
 		<div class="col-md-9">
 			<div class="row">
 				<div class="col-md-12">
-						<app-map [markers]="mapMarkers"></app-map>
+					<app-map [markers]="mapMarkers"></app-map>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
-					<div class="well">			
-						<app-alarm-widget title="UPE Network Status" 
-						id="UPE_Net_Status" 
-						[alarm-count]="alarms?.UPEStats.Down"
-						[alarm-status]="alarmsTrend?.UPEStats_Down"
-						size="lg" color="red"></app-alarm-widget>
+					<div class="well">
+						<app-alarm-widget title="UPE Network Status" id="UPE_Net_Status" [alarm-count]="alarms?.UPEStats.Down" [alarm-status]="alarmsTrend?.UPEStats_Down"
+						 size="lg" color="red"></app-alarm-widget>
 						<h5><b>Down</b></h5>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
-					<div class="well">		
+					<div class="well">
 						<h5><b>Highest Utilization (Top 5)</b></h5>
 						<div id="utilization_chart">
 							<app-chart [chartInputData]="alarms?.Utilization" chartId="utilization"></app-chart>
-						</div>		
+						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<div class="well">
-						<h5><b>Trouble Tickets Stats</b></h5>					
+						<h5><b>Trouble Tickets Stats</b></h5>
 						<div id="tickets_chart">
 							<app-chart [chartInputData]="alarms?.TTStats" chartId="troubleticket"></app-chart>
-						</div>		
+						</div>
 					</div>
-				</div>            
+				</div>
 			</div>
 		</div>
 		<div class="col-md-3 hidden-sm">
 			<div class="well">
 				<h5><b>Trouble Ticket Statstics</b></h5>
-				<app-alarm-widget title="Service Unavailable - S1" 
-				[alarm-count]="alarms?.TTStats.Critical" 
-				[alarm-status]="alarmsTrend?.TTStats_Critical"				
-				id="tt_S1_count" size="md" color="black">
+				<app-alarm-widget title="Service Unavailable - S1" [alarm-count]="alarms?.TTStats.Critical" [alarm-status]="alarmsTrend?.TTStats_Critical"
+				 id="tt_S1_count" size="md" color="black">
 				</app-alarm-widget>
 				<div style="padding-top: 20px;"></div>
-				<app-alarm-widget title="Service Degraded - S2" 
-				[alarm-count]="alarms?.TTStats.High" 
-				[alarm-status]="alarmsTrend?.TTStats_High" 				
-				id="tt_S2_count" size="md" color="red">
-				</app-alarm-widget>				
+				<app-alarm-widget title="Service Degraded - S2" [alarm-count]="alarms?.TTStats.High" [alarm-status]="alarmsTrend?.TTStats_High"
+				 id="tt_S2_count" size="md" color="red">
+				</app-alarm-widget>
 				<div style="padding-top: 20px;"></div>
-				<app-alarm-widget title="Non-service affecting - S3" 
-				[alarm-count]="alarms?.TTStats.Medium"  
-				[alarm-status]="alarmsTrend?.TTStats_Medium" 					
-				id="tt_S3_count" size="md" color="orange">
-				</app-alarm-widget>				
+				<app-alarm-widget title="Non-service affecting - S3" [alarm-count]="alarms?.TTStats.Medium" [alarm-status]="alarmsTrend?.TTStats_Medium"
+				 id="tt_S3_count" size="md" color="orange">
+				</app-alarm-widget>
 			</div>
-		</div> 
+		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-5">
 			<div class="well" style="padding-top: 5px;">
-				<h5 style="margin-bottom: 0px;"><b>DSL Circuits Status</b></h5>	
-				<div class="row">			
+				<h5 style="margin-bottom: 0px;"><b>DSL Circuits Status</b></h5>
+				<div class="row">
 					<div class="col-md-4 col-sm-4">
-						<app-alarm-widget title="Down" 
-						[alarm-count]="alarms?.DSLStats.Down" 
-						[alarm-status]="alarmsTrend?.DSLStats_Down" 						
-						id="DSL_Down"  size="md" color="black">
-						</app-alarm-widget>				
+						<app-alarm-widget title="Down" [alarm-count]="alarms?.DSLStats.Down" [alarm-status]="alarmsTrend?.DSLStats_Down" id="DSL_Down"
+						 size="md" color="black">
+						</app-alarm-widget>
 					</div>
 					<div class="col-md-4 col-sm-4">
-						<app-alarm-widget title="SW Off" 
-						[alarm-count]="alarms?.DSLStats.SwitchedOff" 
-						[alarm-status]="alarmsTrend?.DSLStats_SwitchedOff" 						
-						id="DSL_SW_OFF" size="md" color="red">
-						</app-alarm-widget>				
+						<app-alarm-widget title="SW Off" [alarm-count]="alarms?.DSLStats.SwitchedOff" [alarm-status]="alarmsTrend?.DSLStats_SwitchedOff"
+						 id="DSL_SW_OFF" size="md" color="red">
+						</app-alarm-widget>
 					</div>
 					<div class="col-md-4 col-sm-4">
-						<app-alarm-widget title="Unknown" 
-						[alarm-count]="alarms?.DSLStats.Unknown" 
-						[alarm-status]="alarmsTrend?.DSLStats_Unknown" 						
-						id="DSL_Unknown" size="md" color="orange">
-						</app-alarm-widget>									
-					</div>	
-				</div>		
+						<app-alarm-widget title="Unknown" [alarm-count]="alarms?.DSLStats.Unknown" [alarm-status]="alarmsTrend?.DSLStats_Unknown"
+						 id="DSL_Unknown" size="md" color="orange">
+						</app-alarm-widget>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="col-md-7">
 			<div class="well" style="padding-top: 5px;">
-				<h5 style="margin-bottom: 0px;"><b>FTTX Circuits Status</b></h5>	
-				<div class="row">			
+				<h5 style="margin-bottom: 0px;"><b>FTTX Circuits Status</b></h5>
+				<div class="row">
 					<div class="col-md-3 col-sm-3">
-					<app-alarm-widget title="Down" 
-					[alarm-count]="alarms?.FTTXStats.Down" 
-					[alarm-status]="alarmsTrend?.FTTXStats_Down" 					
-					id="FTTX_Down" size="md" color="black">
-					</app-alarm-widget>	
+						<app-alarm-widget title="Down" [alarm-count]="alarms?.FTTXStats.Down" [alarm-status]="alarmsTrend?.FTTXStats_Down" id="FTTX_Down"
+						 size="md" color="black">
+						</app-alarm-widget>
 					</div>
 					<div class="col-md-3 col-sm-3">
-					<app-alarm-widget title="SW Off" 
-					[alarm-count]="alarms?.FTTXStats.SwitchedOff" 
-					[alarm-status]="alarmsTrend?.FTTXStats_SwitchedOff" 
-					id="FTTX_SW_OFF" size="md" color="red">
-					</app-alarm-widget>	
+						<app-alarm-widget title="SW Off" [alarm-count]="alarms?.FTTXStats.SwitchedOff" [alarm-status]="alarmsTrend?.FTTXStats_SwitchedOff"
+						 id="FTTX_SW_OFF" size="md" color="red">
+						</app-alarm-widget>
 					</div>
 					<div class="col-md-3 col-sm-3">
-					<app-alarm-widget title="Disconntd." 
-					[alarm-count]="alarms?.FTTXStats.Disconnected" 
-					[alarm-status]="alarmsTrend?.FTTXStats_Disconnected" 
-					id="FTTX_Disconnect" size="md" color="orange"
-					></app-alarm-widget>	
-					</div>	
+						<app-alarm-widget title="Disconntd." [alarm-count]="alarms?.FTTXStats.Disconnected" [alarm-status]="alarmsTrend?.FTTXStats_Disconnected"
+						 id="FTTX_Disconnect" size="md" color="orange"></app-alarm-widget>
+					</div>
 					<div class="col-md-3 col-sm-3">
-					<app-alarm-widget title="Never conntd." 
-					[alarm-count]="alarms?.FTTXStats.NeverConnectedOnt" 
-					[alarm-status]="alarmsTrend?.FTTXStats_NeverConnectedOnt" 
-					id="FTTX_Never_Connected" size="md" color="yellow"
-					></app-alarm-widget>	
-					</div>					
-				</div>		
+						<app-alarm-widget title="Never conntd." [alarm-count]="alarms?.FTTXStats.NeverConnectedOnt" [alarm-status]="alarmsTrend?.FTTXStats_NeverConnectedOnt"
+						 id="FTTX_Never_Connected" size="md" color="yellow"></app-alarm-widget>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
