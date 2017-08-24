@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "description": "Mobile Dashboard for VIP SQM/SLM customers",
   "license": "Private",
+  "main": "app.js",
   "scripts": {
 
     "start" : "browser-sync start --server --directory --files ./**/*"

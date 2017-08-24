@@ -1,0 +1,45 @@
+{
+    "alarmsData": {
+        "DSLStats": {
+            "Down": 6,
+            "SwitchedOff": 4,
+            "Unknown": 12,
+            "Up": 1
+        },
+        "FTTXStats": {
+            "Disabled": 2,
+            "Disconnected": 2,
+            "Down": 3,
+            "NeverConnectedOnt": 1,
+            "SwitchedOff": 9,
+            "Unknown": 0,
+            "Up": 66
+        },
+        "TTStats": {
+            "Critical": 5,
+            "High": 2,
+            "Low": 4,
+            "Medium": 0
+        },
+        "TechStats": {
+            "CBLS": 11,
+            "DIA": 99,
+            "DIAS": 3,
+            "IP": 374,
+            "PLL": 25,
+            "VPLS": 0,
+            "WDM": 0
+        },
+        "UPEStats": {
+            "Down": 6,
+            "Up": 28
+        },
+        "Utilization": {
+            "JEDDAH-JEDDAH_DIA673": 14294994.31314,
+            "JEDDAH-MAKKAH_DIA66": 15336354.56576,
+            "JEDDAH-MAKKAH_DIA87": 14148450.49679,
+            "MAKKAH-RIYADH_DIA323": 49242765.62667,
+            "MAKKAH-RIYADH_DIA43": 23369772.20999
+        }
+    }
+}

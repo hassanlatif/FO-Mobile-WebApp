@@ -1,0 +1,3595 @@
+{
+"mapMarkers": {
+"MAKA22-MAKA22_IP80": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.4581944444444,
+"longitude": 39.8065388888888,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1955": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21351542,
+"longitude": 39975542,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_CBLS11": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "CBLS",
+"latitude": 21.485551000000001,
+"longitude": 39.789186999999998,
+"circuitStatus": "UP"
+},
+"MAKA23_00_209-MAKA23_00_209_IP1": {
+"customer": "MINISTRY OF INTERIOR H.Q SECURITY AFFAIRS",
+"technology": "IP",
+"latitude": 21.35286,
+"longitude": 39.97005,
+"circuitStatus": "UP"
+},
+"QURA11_00_418-QURA11_00_418_IP4": {
+"customer": "MINISTRY OF INTERIOR-PASSPORT(SC)",
+"technology": "IP",
+"latitude": 31.516302,
+"longitude": 37.1108052,
+"circuitStatus": "UP"
+},
+"MAKA23_00_224-MAKA23_00_224_IP2": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.397438,
+"longitude": 39.8887,
+"circuitStatus": "UP"
+},
+"MAKA22-MAKA22_IP239": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.430472,
+"longitude": 39.812528,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1897": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.418383,
+"longitude": 39.895306,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-MAKKAH_IP121": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.352505,
+"longitude": 39.981899,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1015": {
+"customer": "SAMIS - MINISTRY OF INTERIOR-HEAD QUARTER",
+"technology": "IP",
+"latitude": 21.3508027777778,
+"longitude": 39.9652527777778,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1834": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.36111,
+"longitude": 39.91602,
+"circuitStatus": "UP"
+},
+"MSHRKHBR-MSHRKHBR_IP1": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.413056,
+"longitude": 39.879444,
+"circuitStatus": "UP"
+},
+"KAARKHAJ-KAARKHAJ_IP5": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 21.698612,
+"longitude": 39.143056,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA254": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "DIA",
+"latitude": 21.350550999999999,
+"longitude": 39.966025999999999,
+"circuitStatus": "UP"
+},
+"MAKA23_11-MAKA23_11_IP46": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.406025,
+"longitude": 39.887972,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP675": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.4275861111111,
+"longitude": 39.906825,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP222": {
+"customer": "MINISTRY OF INTERIOR-SECURITY FORCES HOSPITAL (SC)",
+"technology": "IP",
+"latitude": 21.365278,
+"longitude": 39.8925,
+"circuitStatus": "UP"
+},
+"KAARKHAA-KAARKHAA_IP10": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 21.702777,
+"longitude": 39.140833,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP596": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.3575222222222,
+"longitude": 39.8979555555556,
+"circuitStatus": "UP"
+},
+"JEDDAH-MADINAH_DIA69": {
+"customer": "MINISTRY OF INTERIOR-MEDINA EMIRATES (SC)",
+"technology": "DIA",
+"latitude": 24.465443,
+"longitude": 39.608128,
+"circuitStatus": "UP"
+},
+"MAKA23_00_209-RYAD16_34_DIA1": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "DIA",
+"latitude": 21.3991222222222,
+"longitude": 39.8872694444444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP94": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.3366194444444,
+"longitude": 39.9604694444444,
+"circuitStatus": "UP"
+},
+"MAKA22_41_305-MAKA22_41_305_IP5": {
+"customer": "HIGH COMMISSION FOR TOURISM (SC)",
+"technology": "IP",
+"latitude": 21.446885999999999,
+"longitude": 39.763696000000003,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1174": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.3834722222222,
+"longitude": 39.91265,
+"circuitStatus": "DOWN"
+},
+"AZIZKHAB-AZIZKHTU_PLL2": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "PLL",
+"latitude": 21.386389,
+"longitude": 39.857778,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1071": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.3508027777778,
+"longitude": 39.9652527777778,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP301": {
+"customer": "SAMIS - ANTI DRUG",
+"technology": "IP",
+"latitude": 21.368923,
+"longitude": 39.907052,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA264": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.411959,
+"longitude": 39.881638000000002,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA3FE-Electrica": {
+"customer": "ROYAL DIWAN-ROYAL PROTOCOL(sc)",
+"technology": "DIA",
+"latitude": 21.42175,
+"longitude": 39.829056,
+"circuitStatus": "UP"
+},
+"SLHNKHAB-SLHNKHAB_IP5": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.3836666666667,
+"longitude": 39.8686555555556,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1445": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.430472,
+"longitude": 39.812528,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_DIA18": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "DIA",
+"latitude": 21.407131,
+"longitude": 39.887047,
+"circuitStatus": "UP"
+},
+"MADINAH-RIYADH_DIA159": {
+"customer": "HOLY MOSQUE MAKKAH (SC)",
+"technology": "DIA",
+"latitude": 24.467666999999999,
+"longitude": 39.609397000000001,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP420": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.430472,
+"longitude": 39.812528,
+"circuitStatus": "DOWN"
+},
+"AZIZKHIH-AZIZKHIH_IP3": {
+"customer": "MINISTRY OF INTERIOR H.Q SECURITY AFFAIRS",
+"technology": "IP",
+"latitude": 21.398333,
+"longitude": 39.888056,
+"circuitStatus": "UP"
+},
+"MAKA23_21-MAKA23_21_IP49": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.346667,
+"longitude": 39.978889,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1213": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.42395,
+"longitude": 39.8729055555556,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1908": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.360594,
+"longitude": 39.974811,
+"circuitStatus": "UP"
+},
+"SLWH89_00_219-SLWH89_00_219_IP2": {
+"customer": "MINISTRY OF INTERIOR-PASSPORT(SC)",
+"technology": "IP",
+"latitude": 24.723036,
+"longitude": 50.764492,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1496": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.400569,
+"longitude": 39.887328,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1515": {
+"customer": "National Center for Security Operations",
+"technology": "IP",
+"latitude": 21.42172,
+"longitude": 39.82913,
+"circuitStatus": "UP"
+},
+"MAKA23-MAKA23_IP116": {
+"customer": "MUTAWAFEY HUJJAJA SOUTH EAST ASIAN",
+"technology": "IP",
+"latitude": 21.4295111111111,
+"longitude": 39.8558944444444,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP993": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 24.47367,
+"longitude": 39.6123,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP107": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.3995222222222,
+"longitude": 39.9016361111111,
+"circuitStatus": "UP"
+},
+"MAKA22_00_308-MAKA22_00_308_IP15222-00_JRWLKH00OL0:1-1-1-1-9": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.416796999999999,
+"longitude": 39.772703,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1562": {
+"customer": "CONTROL & INVESTIGATION BOARD (SC)",
+"technology": "IP",
+"latitude": 21.301657,
+"longitude": 39.903223,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_PLL1": {
+"customer": "GID - Makkah District",
+"technology": "PLL",
+"latitude": 21.4131138888889,
+"longitude": 39.8795416666667,
+"circuitStatus": "UP"
+},
+"MAKA23_21-MAKA23_21_IP27": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.338011000000002,
+"longitude": 39.994033999999999,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1913": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.364111,
+"longitude": 39.979208,
+"circuitStatus": "UP"
+},
+"DMAM04_00_201-DMAM04_00_201_IP2": {
+"customer": "MINISTRY OF INTERIOR-PASSPORT(SC)",
+"technology": "IP",
+"latitude": 26.184048,
+"longitude": 50.319361,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA318": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.378519000000001,
+"longitude": 39.811304999999997,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA24": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.38344,
+"longitude": 39.88215,
+"circuitStatus": "UP"
+},
+"AZIZKHCC-AZIZKHCC_IP1": {
+"customer": "MINISTRY OF HAJJ (SC).",
+"technology": "IP",
+"latitude": 21.398919,
+"longitude": 39.887353,
+"circuitStatus": "UP"
+},
+"ASIHDNAA-ASIHDNAA_IP2": {
+"customer": "MINISTRY OF INTERIOR-MEDINA EMIRATES (SC)",
+"technology": "IP",
+"latitude": 24.462213,
+"longitude": 39.602606,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP550": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.35576,
+"longitude": 39.87133,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_PLL119": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "PLL",
+"latitude": 21.42172,
+"longitude": 39.82913,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1894": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.408842,
+"longitude": 39.888303,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA422": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "DIA",
+"latitude": 21.36111,
+"longitude": 39.91602,
+"circuitStatus": "UP"
+},
+"MAUYDNAJ-MAUYDNAJ_IP1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 24.472717,
+"longitude": 39.618897,
+"circuitStatus": "UP"
+},
+"JDYDHDAF-JDYDHDAF_IP2": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 31.334381,
+"longitude": 41.440609,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA323": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "DIA",
+"latitude": 21.42172,
+"longitude": 39.82913,
+"circuitStatus": "UP"
+},
+"MAKA24-MAKA24_IP67": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.407616,
+"longitude": 39.810129,
+"circuitStatus": "UP"
+},
+"WDYHJNAD-WDYHJNAD_IP1": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 16.95714,
+"longitude": 47.017499,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP790": {
+"customer": "SAUDI RED CRESCENT (SC)",
+"technology": "IP",
+"latitude": 24.445754,
+"longitude": 39.645132,
+"circuitStatus": "UP"
+},
+"MAKA22-MAKA22_IP270": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.4488333333333,
+"longitude": 39.8074444444444,
+"circuitStatus": "UP"
+},
+"SLWH89_00_219-SLWH89_00_219_IP1": {
+"customer": "MINISTRY OF INTERIOR-PASSPORT(SC)",
+"technology": "IP",
+"latitude": 24.723036,
+"longitude": 50.764492,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1943": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21344656,
+"longitude": 39983733,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1165": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.3575222222222,
+"longitude": 39.8979555555556,
+"circuitStatus": "UP"
+},
+"AZIZKHCC-AZIZKHCC_IP4": {
+"customer": "MUTAWAFEY HUJJAJA SOUTH ASIAN (SC)",
+"technology": "IP",
+"latitude": 21.425292,
+"longitude": 39.857293,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA58": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.433406000000002,
+"longitude": 39.853855000000003,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_DIA687": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "DIA",
+"latitude": 21.48002,
+"longitude": 39.183067,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA87": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.439177000000001,
+"longitude": 39.772167000000003,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1466": {
+"customer": "MINISTRY OF MUNICIPALITY (SC)",
+"technology": "IP",
+"latitude": 21.418679999999998,
+"longitude": 39.874893999999998,
+"circuitStatus": "UP"
+},
+"JEDDAH-RIYADH_DIA646": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "DIA",
+"latitude": 21.573464,
+"longitude": 39.125311,
+"circuitStatus": "UP"
+},
+"MAKA23_00_209-MAKA23_00_209_IP12": {
+"customer": "MINISTRY OF INTERIOR H.Q SECURITY AFFAIRS",
+"technology": "IP",
+"latitude": 21.3991222222222,
+"longitude": 39.8872694444444,
+"circuitStatus": "DOWN"
+},
+"SLHNKHAK-SLHNKHAK_IP3": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.3896944444444,
+"longitude": 39.8818055555556,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1910": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.361239,
+"longitude": 39.979719,
+"circuitStatus": "UP"
+},
+"MAKA23_00_409-MAKA23_00_409_IP7": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.4124027777778,
+"longitude": 39.8662166666667,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_CBLS5": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "CBLS",
+"latitude": 21.386389,
+"longitude": 39.857778,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP885": {
+"customer": "HOLY MOSQUE MAKKAH (SC)",
+"technology": "IP",
+"latitude": 24.467666999999999,
+"longitude": 39.609397000000001,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1537": {
+"customer": "SAUDI PRESS AGENCY",
+"technology": "IP",
+"latitude": 21.352551999999999,
+"longitude": 39.970968999999997,
+"circuitStatus": "UP"
+},
+"MSJDKHAA-MSJDKHAA_IP1": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.420869,
+"longitude": 39.825539,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA15": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.3366194444444,
+"longitude": 39.9604694444444,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA66": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.439177000000001,
+"longitude": 39.772167000000003,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1948": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.408758,
+"longitude": 39.905092,
+"circuitStatus": "UP"
+},
+"SYNAKHAA-SYNAKHAA_IP3SYNAKHAA-SYNAKHAA_IP3": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.485556,
+"longitude": 39.789444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP44": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.405278,
+"longitude": 39.888333,
+"circuitStatus": "UP"
+},
+"SYNAKHAA-SYNAKHAA_IP1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.4859361111111,
+"longitude": 39.7885083333333,
+"circuitStatus": "UP"
+},
+"MAKA23_00_224-MAKA23_00_224_IP1": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.394444,
+"longitude": 39.870556,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1489": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.378417,
+"longitude": 39.811306,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1206": {
+"customer": "MOI - TECHNICAL AFFAIRS (SC)",
+"technology": "IP",
+"latitude": 21.398333,
+"longitude": 39.888056,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1310": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "IP",
+"latitude": 21.42172,
+"longitude": 39.82913,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1939": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.412058,
+"longitude": 39.886222,
+"circuitStatus": "DOWN"
+},
+"KAARKHAK-KAARKHAK_IP2": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 21.687138,
+"longitude": 39.143416,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1166": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.3575222222222,
+"longitude": 39.8979555555556,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1023": {
+"customer": "NATION EXP EST FOR MOTAWIFS ARAB (SC)",
+"technology": "IP",
+"latitude": 21.425292,
+"longitude": 39.857293,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1957": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21345233,
+"longitude": 39987094,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1085": {
+"customer": "MINISTRY OF HAJJ (SC).",
+"technology": "IP",
+"latitude": 21.4174805555556,
+"longitude": 39.8737138888889,
+"circuitStatus": "UP"
+},
+"JEDDAH-RIYADH_DIA647": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "DIA",
+"latitude": 21.573464,
+"longitude": 39.125311,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1950": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.395517,
+"longitude": 39.901222,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP609": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.372716,
+"longitude": 39.895644,
+"circuitStatus": "DOWN"
+},
+"JEDAAP-JEDAAP_IP46": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.669384,
+"longitude": 39.151192,
+"circuitStatus": "UP"
+},
+"AZIZKHTU-AZIZKHTU_IP1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.386389,
+"longitude": 39.857778,
+"circuitStatus": "UP"
+},
+"KAARKHAA-KAARKHAA_IP18": {
+"customer": "SAMIS - GID",
+"technology": "IP",
+"latitude": 21.702779,
+"longitude": 39.140834,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP2054": {
+"customer": "GENERAL DIRECTORATE OF IT CRIMES PREVENTION",
+"technology": "IP",
+"latitude": 21.360895,
+"longitude": 39.915877,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP1391": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "IP",
+"latitude": 21.573464,
+"longitude": 39.125311,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_PLL50": {
+"customer": "Saudi Broadcasting Corpotation",
+"technology": "PLL",
+"latitude": 21.352993,
+"longitude": 39.969875,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP702": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.4132861111111,
+"longitude": 39.8975833333333,
+"circuitStatus": "DOWN"
+},
+"KAARKHAJ-KAARKHAJ_IP6": {
+"customer": "MINISTRY OF HAJJ (SC).",
+"technology": "IP",
+"latitude": 21.698612,
+"longitude": 39.143056,
+"circuitStatus": "UP"
+},
+"AZIZKHIH-RYAD08_00_204_DIA1": {
+"customer": "MINISTRY OF INTERIOR H.Q SECURITY AFFAIRS",
+"technology": "DIA",
+"latitude": 21.3983388888889,
+"longitude": 39.88815,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP45": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.42975,
+"longitude": 39.9055,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP93": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.3497111111111,
+"longitude": 39.9845472222222,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1956": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21349597,
+"longitude": 39980075,
+"circuitStatus": "UP"
+},
+"MAKA23_00_209-MAKA23_00_209_IP2": {
+"customer": "MINISTRY OF INTERIOR H.Q COMPUTER CENTER",
+"technology": "IP",
+"latitude": 21.3991222222222,
+"longitude": 39.8872694444444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1490": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.398333,
+"longitude": 39.888056,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP95": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.344403,
+"longitude": 39.970814,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1148": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.446501,
+"longitude": 39.553405,
+"circuitStatus": "DOWN"
+},
+"JEDAAP-JEDAAP_IP83": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.669384,
+"longitude": 39.151192,
+"circuitStatus": "UP"
+},
+"MAKA23_00_105-MAKA23_00_105_IP8": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.407438,
+"longitude": 39.887589,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1500": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.346667,
+"longitude": 39.978889,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP392": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.42085,
+"longitude": 39.8247,
+"circuitStatus": "UP"
+},
+"MAKA23-MAKA23_IP115": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.421744,
+"longitude": 39.856111,
+"circuitStatus": "UP"
+},
+"RGIYEAAF-RGIYEAAF_IP2": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 29.085833,
+"longitude": 46.639167,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1558": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.350139,
+"longitude": 39.570556,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP970": {
+"customer": "NATION EXP EST FOR MOTAWIFS ARAB (SC)",
+"technology": "IP",
+"latitude": 21.438647,
+"longitude": 39.771956,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1710": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.36111,
+"longitude": 39.91602,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_PLL99": {
+"customer": "KING ABDULLAH MEDICAL CITY (SC)",
+"technology": "PLL",
+"latitude": 21.3826972222222,
+"longitude": 39.8809861111111,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA327": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.369143999999999,
+"longitude": 39.881197999999998,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA261": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.40269599999999,
+"longitude": 39.895063,
+"circuitStatus": "UP"
+},
+"JEDA04_00_306-JEDA04_00_306_IP3": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.472699,
+"longitude": 39.200042,
+"circuitStatus": "UP"
+},
+"MAKA23_00_209-MAKA23_00_209_IP11": {
+"customer": "MINISTRY OF INTERIOR H.Q SECURITY AFFAIRS",
+"technology": "IP",
+"latitude": 21.3991222222222,
+"longitude": 39.8872694444444,
+"circuitStatus": "DOWN"
+},
+"JEDDAH-MAKKAH_DIA277": {
+"customer": "GID - Makkah District",
+"technology": "DIA",
+"latitude": 21.398333,
+"longitude": 39.888056,
+"circuitStatus": "UP"
+},
+"MAKA23_00_105-MAKA23_00_105_IP9": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.407438,
+"longitude": 39.887589,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1606": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.462085999999999,
+"longitude": 39.946804999999998,
+"circuitStatus": "UP"
+},
+"MAKA23_11-MAKA23_11_IP69": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.407438,
+"longitude": 39.887589,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP87": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.405,
+"longitude": 39.87111,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1066": {
+"customer": "SAMIS - GID",
+"technology": "IP",
+"latitude": 21.3496861111111,
+"longitude": 39.9630972222222,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP1005": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 24.553317,
+"longitude": 39.716289000000003,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA338": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "DIA",
+"latitude": 21.403181,
+"longitude": 39.886511,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_PLL8": {
+"customer": "SAUDI TELECOM COMPANY -  Personal Sector",
+"technology": "PLL",
+"latitude": 24.465443,
+"longitude": 39.608128,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP1424": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 24.483202,
+"longitude": 39.652292,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA274": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.400404999999999,
+"longitude": 39.899034999999998,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-RIYADH_DIA351": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "DIA",
+"latitude": 24.683611,
+"longitude": 46.671944,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_DIA673": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "DIA",
+"latitude": 21.48002,
+"longitude": 39.183067,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1914": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.36195,
+"longitude": 39.984453,
+"circuitStatus": "UP"
+},
+"MAKA23-MAKA23_IP253": {
+"customer": "MOI - Department of Telecommunications & Wireless",
+"technology": "IP",
+"latitude": 21.42175,
+"longitude": 39.8561388888889,
+"circuitStatus": "UP"
+},
+"JEDAAP-JEDAAP_IP142": {
+"customer": "MINISTRY OF HAJJ (SC).",
+"technology": "IP",
+"latitude": 21.669384,
+"longitude": 39.151192,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1944": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.412442,
+"longitude": 39.895536,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA18": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.4071611111111,
+"longitude": 39.8869666666667,
+"circuitStatus": "UP"
+},
+"MAKA21_00_312-RYAD16_33_301_DIA1": {
+"customer": "HOLY MAKKAH MUNICIPALITY",
+"technology": "DIA",
+"latitude": 21.432155,
+"longitude": 39.83017,
+"circuitStatus": "DOWN"
+},
+"MAKA22_00_401-MAKA22_00_401_IP1": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.442244,
+"longitude": 39.8005,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_PLL47": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "PLL",
+"latitude": 21.4488333333333,
+"longitude": 39.8074444444444,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-MAKKAH_IP1895": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.406733,
+"longitude": 39.8932,
+"circuitStatus": "UP"
+},
+"MAKA24_00_408-MAKA24_00_408_IP2": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.41238,
+"longitude": 39.800371,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_CBLS3": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "CBLS",
+"latitude": 21.3861694444444,
+"longitude": 39.8607361111111,
+"circuitStatus": "UP"
+},
+"MAKA23_00_225-MAKA23_00_225_IP27": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.395139,
+"longitude": 39.893639,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIAS16": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIAS",
+"latitude": 21.4056138888889,
+"longitude": 39.8885472222222,
+"circuitStatus": "UP"
+},
+"RYAD06_43-ZAHRKH0A000_DIA1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.4424333333333,
+"longitude": 39.8072277777778,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1990": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.361014,
+"longitude": 39.916031,
+"circuitStatus": "UP"
+},
+"SLAMDNAC-SLAMDNAC_IP1": {
+"customer": "MINISTRY OF HAJJ (SC).",
+"technology": "IP",
+"latitude": 24.471944,
+"longitude": 39.547222,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA400": {
+"customer": "SAUDI TELECOM COMPANY  - Wholesale Sector",
+"technology": "DIA",
+"latitude": 21.421741,
+"longitude": 39.856153,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP97": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.438647,
+"longitude": 39.771956,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-RIYADH_DIA323": {
+"customer": "SAMIS - MINISTRY OF FINANCE",
+"technology": "DIA",
+"latitude": 21.36111,
+"longitude": 39.91602,
+"circuitStatus": "UP"
+},
+"MAKA23_11-MAKA23_11_IP44": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.406025,
+"longitude": 39.887972,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA446": {
+"customer": "MUNICIPALITY OF HOLY MAKKEY ACCOUNTH (SC)",
+"technology": "DIA",
+"latitude": 21.440659,
+"longitude": 39.83661,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_PLL131": {
+"customer": "MINISTRY OF INTERIOR-MAKKAH EMIRATES (SC)",
+"technology": "PLL",
+"latitude": 21.531944,
+"longitude": 39.179167,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA230": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.4164527777778,
+"longitude": 39.8806138888889,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP591": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.416796999999999,
+"longitude": 39.772703,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_PLL147": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "PLL",
+"latitude": 22.035704,
+"longitude": 38.971806,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1554": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.361347,
+"longitude": 39.906625,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-MAKKAH_IP1493": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.42085,
+"longitude": 39.8247,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1988": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.361014,
+"longitude": 39.916031,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP678": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.3607305555556,
+"longitude": 39.9609805555556,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP771": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.421741,
+"longitude": 39.856153,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1802": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.360931,
+"longitude": 39.914261,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1946": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.411128,
+"longitude": 39.894633,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-MAKKAH_IP1381": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.42085,
+"longitude": 39.8247,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA134": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.416796999999999,
+"longitude": 39.772703,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA43": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.3754222222222,
+"longitude": 39.8805027777778,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP680": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.3539722222222,
+"longitude": 39.9812555555556,
+"circuitStatus": "UP"
+},
+"JEDAAP-JEDAAP_IP180": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.669384,
+"longitude": 39.151192,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1931": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21343575,
+"longitude": 39972703,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP15": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.4131138888889,
+"longitude": 39.8795416666667,
+"circuitStatus": "UP"
+},
+"MAKA23-MAKA23_IP172": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.4234166666667,
+"longitude": 39.86875,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP151": {
+"customer": "MINISTRY OF MUNICIPALITY (SC)",
+"technology": "IP",
+"latitude": 21.38441,
+"longitude": 39.86763,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP114": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.4483944444444,
+"longitude": 39.8649583333333,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP2039": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.428797,
+"longitude": 39.906159,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA354": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "DIA",
+"latitude": 21.350278,
+"longitude": 39.622694,
+"circuitStatus": "UP"
+},
+"JEDA11_00_401-JEDA11_00_401_IP13": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.501005555,
+"longitude": 39.20075,
+"circuitStatus": "UP"
+},
+"MAKA23_11-MAKA23_11_IP43": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.406025,
+"longitude": 39.887972,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP92": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.3524166666667,
+"longitude": 39.9846944444444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1933": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21349589,
+"longitude": 39969833,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA39": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.38344,
+"longitude": 39.88215,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP745": {
+"customer": "MINISTRY OF ISLAMIC AFFAIRS (SC)",
+"technology": "IP",
+"latitude": 21.378869,
+"longitude": 39.834111,
+"circuitStatus": "UP"
+},
+"MAKA21_00_312-MAKA21_00_312_IP2": {
+"customer": "MUNICIPALITY OF HOLY MAKKEY ACCOUNTH (SC)",
+"technology": "IP",
+"latitude": 21.4325,
+"longitude": 39.8291666666667,
+"circuitStatus": "UP"
+},
+"KAARKHAA-KAARKHAA_IP2": {
+"customer": "MINISTRY OF INTERIOR-PASSPORT(SC)",
+"technology": "IP",
+"latitude": 21.7027777777778,
+"longitude": 39.1408333333333,
+"circuitStatus": "UP"
+},
+"MAKA22_00_407-MAKA22_00_407_IP5": {
+"customer": "GENERAL CARS SYNDICATE (SC)",
+"technology": "IP",
+"latitude": 21.4403055555556,
+"longitude": 39.7859194444444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1940": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.414292,
+"longitude": 39.889933,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP226": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.346667,
+"longitude": 39.97888,
+"circuitStatus": "UP"
+},
+"MRJNKHAA-MRJNKHAA_IP2": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.6935833333333,
+"longitude": 39.0920833333333,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1912": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.362172,
+"longitude": 39.979006,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP120": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.3860472222222,
+"longitude": 39.9136583333333,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1200": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.4071611111111,
+"longitude": 39.8869666666667,
+"circuitStatus": "UP"
+},
+"MAKA23_21_102-MAKA23_21_102_IP2": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.353453999999999,
+"longitude": 39.985191999999998,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1954": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21352881,
+"longitude": 39970186,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA16": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.348333,
+"longitude": 39.935,
+"circuitStatus": "UP"
+},
+"JEDAAP-JEDAAP_IP103": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 21.669384,
+"longitude": 39.151192,
+"circuitStatus": "UP"
+},
+"MAKA23_11-MAKA23_11_IP79": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.40825,
+"longitude": 39.8886944444444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP885": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.49626,
+"longitude": 39.794755,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP89": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.4164527777778,
+"longitude": 39.8806138888889,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP772": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.692616,
+"longitude": 39.139087,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA262": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.406718000000001,
+"longitude": 39.889014000000003,
+"circuitStatus": "UP"
+},
+"DUBA06_21_201-DUBA06_21_201_IP2": {
+"customer": "MINISTRY OF INTERIOR-PASSPORT(SC)",
+"technology": "IP",
+"latitude": 27.558456,
+"longitude": 35.551176,
+"circuitStatus": "UP"
+},
+"MSFLKHAB-MSFLKHAB_IP1": {
+"customer": "SAMIS - GID",
+"technology": "IP",
+"latitude": 21.41942,
+"longitude": 39.82711,
+"circuitStatus": "UP"
+},
+"MAKA22_00_102-MAKA22_00_102_IP10": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.46777,
+"longitude": 39.827814,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA253": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "DIA",
+"latitude": 21.383198,
+"longitude": 39.913361000000002,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP1035": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 24.553317,
+"longitude": 39.716289,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIAS17": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIAS",
+"latitude": 21.42975,
+"longitude": 39.9055,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1426": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.335617,
+"longitude": 39.644367,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1535": {
+"customer": "SAUDI PRESS AGENCY",
+"technology": "IP",
+"latitude": 21.418056,
+"longitude": 39.873292,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP113": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.5631805555556,
+"longitude": 39.7738972222222,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA368": {
+"customer": "Saudi Broadcasting Corpotation",
+"technology": "DIA",
+"latitude": 21.418056,
+"longitude": 39.873292,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1030": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.487094,
+"longitude": 39.983328,
+"circuitStatus": "UP"
+},
+"MAKKAH-TAIF_PLL5": {
+"customer": "MODA-RSAF (SC)",
+"technology": "PLL",
+"latitude": 21.485574,
+"longitude": 39.951732,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1498": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.417036,
+"longitude": 39.902498,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1907": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.359833,
+"longitude": 39.977253,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA14": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.4152666666667,
+"longitude": 39.8836361111111,
+"circuitStatus": "UP"
+},
+"JEDA04_00_306-JEDA04_00_306_IP5": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.472699,
+"longitude": 39.200042,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA13": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.3860472222222,
+"longitude": 39.9136583333333,
+"circuitStatus": "UP"
+},
+"SLHNKHAD-SLHNKHAD_IP6": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.3861694444444,
+"longitude": 39.8607361111111,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1507": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.365828,
+"longitude": 39.885225,
+"circuitStatus": "UP"
+},
+"JEDA14-MSHRKHAD_DIA1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.4139722222222,
+"longitude": 39.8805361111111,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1945": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21349008,
+"longitude": 39975169,
+"circuitStatus": "UP"
+},
+"RHJNKHAB-RHJNKHAB_IP2": {
+"customer": "National Water Company (SIP)",
+"technology": "IP",
+"latitude": 21.309611,
+"longitude": 40.003061,
+"circuitStatus": "UP"
+},
+"JEDA18_00_102-MAKA23_00_409_PLL2": {
+"customer": "GID - Makkah District",
+"technology": "PLL",
+"latitude": 21.4124027777778,
+"longitude": 39.8662166666667,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP2044": {
+"customer": "National Center for Security Operations",
+"technology": "IP",
+"latitude": 21.371436,
+"longitude": 39.899086,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP2045": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.360564,
+"longitude": 39.9143,
+"circuitStatus": "UP"
+},
+"MDNA17-MDNA17_IP127": {
+"customer": "MINISTRY OF INTERIOR-MEDINA EMIRATES (SC)",
+"technology": "IP",
+"latitude": 24.484622,
+"longitude": 39.575887,
+"circuitStatus": "UP"
+},
+"MAKA23_21-MAKA23_21_IP47": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.3522722222222,
+"longitude": 39.9728722222222,
+"circuitStatus": "UP"
+},
+"MAKA23_12-MAKA23_12_IP4": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.3891666666667,
+"longitude": 39.9147222222222,
+"circuitStatus": "UP"
+},
+"TAIF-TAIF_IP449": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.646669,
+"longitude": 40.386344,
+"circuitStatus": "UP"
+},
+"MAKA22_00_407-MAKA22_00_407_IP3": {
+"customer": "GENERAL CARS SYNDICATE (SC)",
+"technology": "IP",
+"latitude": 21.4403055555556,
+"longitude": 39.7859194444444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP331": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.449819,
+"longitude": 39.765453,
+"circuitStatus": "DOWN"
+},
+"TAIF-TAIF_IP450": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.646669,
+"longitude": 40.386344,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1329": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.23598,
+"longitude": 39.49176,
+"circuitStatus": "UP"
+},
+"QURA11_00_418-QURA11_00_418_IP3": {
+"customer": "MINISTRY OF INTERIOR-PASSPORT(SC)",
+"technology": "IP",
+"latitude": 31.516302,
+"longitude": 37.1108052,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-MAKKAH_IP707": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.3496861111111,
+"longitude": 39.9630972222222,
+"circuitStatus": "UP"
+},
+"AZIZKHIH-AZIZKHIH_IP2": {
+"customer": "MINISTRY OF INTERIOR H.Q SECURITY AFFAIRS",
+"technology": "IP",
+"latitude": 21.3983388888889,
+"longitude": 39.88815,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP975": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.351661,
+"longitude": 39.622053,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP112": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.5631805555556,
+"longitude": 39.7738972222222,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP595": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.3575222222222,
+"longitude": 39.8979555555556,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP600": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.4485,
+"longitude": 39.566111,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1900": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.422336,
+"longitude": 39.900522,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA322": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "DIA",
+"latitude": 21.42172,
+"longitude": 39.82913,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP886": {
+"customer": "HOLY MOSQUE MAKKAH (SC)",
+"technology": "IP",
+"latitude": 24.467666999999999,
+"longitude": 39.609397000000001,
+"circuitStatus": "UP"
+},
+"SLHNKHAK-SLHNKHAK_IP4": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.3896944444444,
+"longitude": 39.8818055555556,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-MAKKAH_IP1911": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.359539,
+"longitude": 39.984406,
+"circuitStatus": "UP"
+},
+"KAARKHAJ-KAARKHAJ_IP9": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.698612,
+"longitude": 39.143056,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP98": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.4197222222222,
+"longitude": 39.8270555555556,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIAS22": {
+"customer": "MINISTRY OF HAJJ (SC).",
+"technology": "DIAS",
+"latitude": 21.425292,
+"longitude": 39.857293,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA319": {
+"customer": "MINISTRY OF INTERIOR-SECURITY FORCES HOSPITAL (SC)",
+"technology": "DIA",
+"latitude": 21.365278,
+"longitude": 39.8925,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA20": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.3524166666667,
+"longitude": 39.9846944444444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP237": {
+"customer": "SAMIS - GID",
+"technology": "IP",
+"latitude": 21.398333,
+"longitude": 39.888056,
+"circuitStatus": "UP"
+},
+"MAKA23_00_209-MAKA23_00_209_IP7": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.3991222222222,
+"longitude": 39.8872694444444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1919": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.372761,
+"longitude": 39.986403,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP2451": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 22.035704,
+"longitude": 38.971806,
+"circuitStatus": "UP"
+},
+"MSHRKHAD-MSHRKHAD_IP1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.4141666666667,
+"longitude": 39.8805555555556,
+"circuitStatus": "UP"
+},
+"AZIZKHAC-AZIZKHAC_IP1": {
+"customer": "MINISTRY OF INTERIOR-TECHNICAL AFFAIRS (SC)",
+"technology": "IP",
+"latitude": 21.398889,
+"longitude": 39.888333,
+"circuitStatus": "UP"
+},
+"JEDAAP-JEDAAP_IP57": {
+"customer": "MINISTRY OF INTERIOR-PASSPORT(SC)",
+"technology": "IP",
+"latitude": 21.669384,
+"longitude": 39.151192,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1062": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.413278821527999,
+"longitude": 39.794065353302699,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-MAKKAH_IP1012": {
+"customer": "SAMIS - MINISTRY OF INTERIOR-HEAD QUARTER",
+"technology": "IP",
+"latitude": 21.4071611111111,
+"longitude": 39.8869666666667,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA260": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.396705999999998,
+"longitude": 39.900143999999997,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-MAKKAH_IP142": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.372716,
+"longitude": 39.895644,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP1764": {
+"customer": "MOI - Department of Telecommunications & Wireless",
+"technology": "IP",
+"latitude": 21.693579,
+"longitude": 39.092091,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1508": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "IP",
+"latitude": 21.403181,
+"longitude": 39.886511,
+"circuitStatus": "UP"
+},
+"JEDA14-MSHRKHAD_DIA2": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.4139722222222,
+"longitude": 39.8805361111111,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1938": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.422247,
+"longitude": 39.875361,
+"circuitStatus": "UP"
+},
+"DUBA06_21_201-DUBA06_21_201_IP1": {
+"customer": "MINISTRY OF INTERIOR-PASSPORT(SC)",
+"technology": "IP",
+"latitude": 27.558456,
+"longitude": 35.551176,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP39": {
+"customer": "ROYAL CLINIC",
+"technology": "IP",
+"latitude": 21.42175,
+"longitude": 39.8290555555556,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1171": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.4071611111111,
+"longitude": 39.8869666666667,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA21": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.350062999999999,
+"longitude": 39.984234999999998,
+"circuitStatus": "UP"
+},
+"MAKA23_21-MAKA23_21_IP67": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.3376944444444,
+"longitude": 39.9941111111111,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA12": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.412714999999999,
+"longitude": 39.902572999999997,
+"circuitStatus": "UP"
+},
+"MADINAH-RIYADH_DIA20": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 24.472717,
+"longitude": 39.618897,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1935": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.424194,
+"longitude": 39.90065,
+"circuitStatus": "UP"
+},
+"MAKA23_00_225-MAKA23_00_225_IP25": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.39513,
+"longitude": 39.89363,
+"circuitStatus": "UP"
+},
+"MAKA23_00_409-MAKA23_00_409_IP1": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.405,
+"longitude": 39.871111,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP47": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.4152666666667,
+"longitude": 39.8836361111111,
+"circuitStatus": "UP"
+},
+"MAKA23_12-MAKA23_12_IP2": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.381327,
+"longitude": 39.932031,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA14": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.346667,
+"longitude": 39.978889,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1615": {
+"customer": "National Center for Security Operations",
+"technology": "IP",
+"latitude": 21.36111,
+"longitude": 39.91602,
+"circuitStatus": "UP"
+},
+"AZIZKHIH-AZIZKHIH_IP4": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.435922,
+"longitude": 39.847728,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA30": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.334629,
+"longitude": 39.988726,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1133": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.19489,
+"longitude": 39.58003,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1923": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21345339,
+"longitude": 39956886,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP1992": {
+"customer": "Royal Diwan",
+"technology": "IP",
+"latitude": 21.539856,
+"longitude": 39.142406,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_PLL44": {
+"customer": "MOI-TECHNICAL DEPARTMENT GID",
+"technology": "PLL",
+"latitude": 21.3980388888889,
+"longitude": 39.8876472222222,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1949": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.407847,
+"longitude": 39.899878,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1893": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.414553,
+"longitude": 39.883986,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA38": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.386389,
+"longitude": 39.857778,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP593": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.372716,
+"longitude": 39.895644,
+"circuitStatus": "UP"
+},
+"MAKA23_11-MAKA23_11_IP54": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.406025,
+"longitude": 39.887972,
+"circuitStatus": "UP"
+},
+"MAKA23-MAKA23_IP68": {
+"customer": "MINISTRY OF INTERIOR H.Q SECURITY AFFAIRS",
+"technology": "IP",
+"latitude": 21.421741,
+"longitude": 39.856153,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA268": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.396972000000002,
+"longitude": 39.900007000000002,
+"circuitStatus": "UP"
+},
+"BAHR92_11_104-BAHR92_11_104_IP2": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.446501,
+"longitude": 39.55340,
+"circuitStatus": "UP"
+},
+"MSHRKHBW-MSHRKHBW_IP2": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.436523999999999,
+"longitude": 39.902254999999997,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP1045": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 24.463152,
+"longitude": 39.658758,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP1128": {
+"customer": "MINISTRY OF HAJJ (SC).",
+"technology": "IP",
+"latitude": 24.553317,
+"longitude": 39.716289000000003,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1941": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21345847,
+"longitude": 39978039,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP665": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.372716,
+"longitude": 39.895644,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-MAKKAH_IP348": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.614133,
+"longitude": 39.693741,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1831": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.36111,
+"longitude": 39.91602,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1471": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.407616,
+"longitude": 39.810129,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1461": {
+"customer": "ROYAL DIWAN OF THE CROWN PRINCE",
+"technology": "IP",
+"latitude": 21.42172,
+"longitude": 39.82913,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_PLL33": {
+"customer": "Saudi Broadcasting Corpotation",
+"technology": "PLL",
+"latitude": 21.42085,
+"longitude": 39.8247,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1512": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.42172,
+"longitude": 39.82913,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1898": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.424042,
+"longitude": 39.893569,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_CBLS67": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "CBLS",
+"latitude": 21360412,
+"longitude": 39914271,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_CBLS71": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "CBLS",
+"latitude": 21.361014,
+"longitude": 39.916031,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1616": {
+"customer": "National Center for Security Operations",
+"technology": "IP",
+"latitude": 21.398333,
+"longitude": 39.888056,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA19": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.5027,
+"longitude": 39.7789972222222,
+"circuitStatus": "UP"
+},
+"MDNA17_00_440-RYAD06_43_DIA1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 24.705384,
+"longitude": 46.680067,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1932": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21348722,
+"longitude": 39969753,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_CBLS16": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "CBLS",
+"latitude": 21.441731,
+"longitude": 39.808147,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA49": {
+"customer": "ROYAL DIWAN-ROYAL PROTOCOL(sc)",
+"technology": "DIA",
+"latitude": 21.421741,
+"longitude": 39.856153,
+"circuitStatus": "UP"
+},
+"SLHNKHAG-SLHNKHAG_IP3": {
+"customer": "SAMIS - GIP",
+"technology": "IP",
+"latitude": 21.3877916666667,
+"longitude": 39.8742861111111,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP1830": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "IP",
+"latitude": 22.0992,
+"longitude": 39.030889,
+"circuitStatus": "UP"
+},
+"AZIZKHTU-AZIZKHTU_IP3": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.386389,
+"longitude": 39.857778,
+"circuitStatus": "UP"
+},
+"MAKA21-MAKA21_IP98": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.430671,
+"longitude": 39.828727,
+"circuitStatus": "UP"
+},
+"MSHRKHAD-MSHRKHAD_IP7": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.4139722222222,
+"longitude": 39.8805361111111,
+"circuitStatus": "UP"
+},
+"AZIZKHCC-AZIZKHCC_IP19": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.425292,
+"longitude": 39.857293,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1862": {
+"customer": "Saudi Broadcasting Corpotation",
+"technology": "IP",
+"latitude": 21.352803,
+"longitude": 39.970261,
+"circuitStatus": "UP"
+},
+"AZIZKHIH-JEDA14_DIA1": {
+"customer": "MINISTRY OF INTERIOR-H.Q. CONTROL & COMMAND CENTER",
+"technology": "DIA",
+"latitude": 21.3983388888889,
+"longitude": 39.88815,
+"circuitStatus": "UP"
+},
+"MAKA23_11-MAKA23_11_IP133": {
+"customer": "National Water Company (SIP)",
+"technology": "IP",
+"latitude": 21.546222,
+"longitude": 39.800194,
+"circuitStatus": "UP"
+},
+"MDNA01_00_304-MDNA01_00_304_IP2": {
+"customer": "MUNICIPALITY OF MEDINA (SC)",
+"technology": "IP",
+"latitude": 24.460019,
+"longitude": 39.602067,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA171": {
+"customer": "ROYAL PALACE-KING ABDULLAH BIN ABDULAZIZ (SC)",
+"technology": "DIA",
+"latitude": 21.4311111111111,
+"longitude": 39.83,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP964": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.407438,
+"longitude": 39.887589,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA339": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "DIA",
+"latitude": 21.403181,
+"longitude": 39.886511,
+"circuitStatus": "UP"
+},
+"AZIZKHAC-AZIZKHAC_IP4": {
+"customer": "SAMIS - MINISTRY OF INTERIOR-HEAD QUARTER",
+"technology": "IP",
+"latitude": 21.3990222222222,
+"longitude": 39.8884722222222,
+"circuitStatus": "UP"
+},
+"MAKA23-MAKA23_IP182": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.4295111111111,
+"longitude": 39.8558944444444,
+"circuitStatus": "DOWN"
+},
+"MSHRKHAD-RYAD06_43_DIA1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.4139722222222,
+"longitude": 39.8805361111111,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP734": {
+"customer": "HIGH COMMISSION FOR TOURISM (SC)",
+"technology": "IP",
+"latitude": 21.430472,
+"longitude": 39.812528,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_PLL7": {
+"customer": "SAUDI TELECOM COMPANY -  Personal Sector",
+"technology": "PLL",
+"latitude": 24.465443,
+"longitude": 39.608128,
+"circuitStatus": "UP"
+},
+"JEDDAH-RIYADH_DIA689": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "DIA",
+"latitude": 21.573464,
+"longitude": 39.125311,
+"circuitStatus": "UP"
+},
+"AZIZKHAO-AZIZKHAO_IP9": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.419643,
+"longitude": 39.84312,
+"circuitStatus": "UP"
+},
+"MSHRKHBT-MSHRKHBT_IP1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.4358611111111,
+"longitude": 39.9019888888889,
+"circuitStatus": "UP"
+},
+"MAKA23_12-MAKA23_12_IP13": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.381327,
+"longitude": 39.932031,
+"circuitStatus": "UP"
+},
+"JAMADNAE-JAMADNAE_IP4": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 16.899176,
+"longitude": 42.584208,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1960": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21353083,
+"longitude": 39981453,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP1035": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "IP",
+"latitude": 21.573464,
+"longitude": 39.125311,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA334": {
+"customer": "SAUDI PRESS AGENCY",
+"technology": "DIA",
+"latitude": 21.418056,
+"longitude": 39.873292,
+"circuitStatus": "UP"
+},
+"ALAHSA-ALAHSA_IP91": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 24.12761,
+"longitude": 51.56843,
+"circuitStatus": "UP"
+},
+"MAKA23_11-MAKA23_11_IP120": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.4077972222222,
+"longitude": 39.886225,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP511": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.419556,
+"longitude": 39.826667,
+"circuitStatus": "UP"
+},
+"MAKA23_00_225-MAKA23_00_225_IP12": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21395139,
+"longitude": 39893639,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP273": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.384472,
+"longitude": 39.87255,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1199": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.4071611111111,
+"longitude": 39.8869666666667,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA169": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "DIA",
+"latitude": 21.407438,
+"longitude": 39.887589,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP1602": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "IP",
+"latitude": 21.539856,
+"longitude": 39.142406,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA328": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.396972,
+"longitude": 39.9000070,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP218": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.3754222222222,
+"longitude": 39.8805027777778,
+"circuitStatus": "UP"
+},
+"JEDA11_00_401-JEDA11_00_401_IP12": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.500751,
+"longitude": 39.201634,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1924": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21343286,
+"longitude": 39960739,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP96": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.363030,
+"longitude": 39.983286,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1501": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.407438,
+"longitude": 39.887589,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP347": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.614133,
+"longitude": 39.693741,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1909": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.363383,
+"longitude": 39.976075,
+"circuitStatus": "UP"
+},
+"AZIZKHAB-AZIZKHAB_IP3": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.38344,
+"longitude": 39.88215,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1511": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.42172,
+"longitude": 39.82913,
+"circuitStatus": "UP"
+},
+"TWWL93_00_301-TWWL93_00_301_IP3": {
+"customer": "ROYAL CLINIC",
+"technology": "IP",
+"latitude": 22.0992,
+"longitude": 39.030889,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP1732": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 51.11183,
+"longitude": 24.10585,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_DIA922": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "DIA",
+"latitude": 21.48002,
+"longitude": 39.183067,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1188": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.350550999999999,
+"longitude": 39.966025999999999,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP621": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.405,
+"longitude": 39.871111,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP2050": {
+"customer": "Saudi Broadcasting Corpotation",
+"technology": "IP",
+"latitude": 21.352885,
+"longitude": 39.970217,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP664": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.346667,
+"longitude": 39.978889,
+"circuitStatus": "UP"
+},
+"MAKA22-MAKA22_IP114": {
+"customer": "MINISTRY OF INTERIOR-PRISON (SC)",
+"technology": "IP",
+"latitude": 21.457228,
+"longitude": 39.80972,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP91": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.3522722222222,
+"longitude": 39.9728722222222,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1737": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 214717,
+"longitude": 3992794,
+"circuitStatus": "UP"
+},
+"MSHRKHBU-RYAD06_43_DIA2": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.4056138888889,
+"longitude": 39.8885472222222,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1889": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.379206,
+"longitude": 39.923172,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1899": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.417872,
+"longitude": 39.899847,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_PLL120": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "PLL",
+"latitude": 21.400569,
+"longitude": 39.887328,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1837": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.390362,
+"longitude": 39.908443,
+"circuitStatus": "UP"
+},
+"ALAHSA-ALAHSA_IP92": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 24.127619,
+"longitude": 51.568439,
+"circuitStatus": "UP"
+},
+"RYAD06_43-SLAMDNAA_DIA1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 24.465443,
+"longitude": 39.608128,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP753": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.406025,
+"longitude": 39.887972,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_CBLS66": {
+"customer": "SAMIS - MINISTRY OF INTERIOR-HEAD QUARTER",
+"technology": "CBLS",
+"latitude": 21.36111,
+"longitude": 39.91602,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1947": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.409181,
+"longitude": 39.892739,
+"circuitStatus": "UP"
+},
+"MAKA23_11-MAKA23_11_IP55": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.403328999999999,
+"longitude": 39.89613200,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1890": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.371031,
+"longitude": 39.938053,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_CBLS23": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "CBLS",
+"latitude": 21.500751,
+"longitude": 39.201634,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1014": {
+"customer": "SAMIS - MINISTRY OF INTERIOR-HEAD QUARTER",
+"technology": "IP",
+"latitude": 21.3834722222222,
+"longitude": 39.91265,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_CBLS10": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "CBLS",
+"latitude": 2138344,
+"longitude": 3988215,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIASMW8": {
+"customer": "MINISTRY OF HAJJ (SC).",
+"technology": "DIASMW",
+"latitude": 21.38,
+"longitude": 39.8,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1201": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.3834722222222,
+"longitude": 39.91265,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_PLL103": {
+"customer": "MINISTRY OF INTERIOR-GIP (SC)",
+"technology": "PLL",
+"latitude": 21.35812,
+"longitude": 39.827862,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_PLL51": {
+"customer": "Saudi Broadcasting Corpotation",
+"technology": "PLL",
+"latitude": 21.352993,
+"longitude": 39.969875,
+"circuitStatus": "UP"
+},
+"JDYDHDAF-JDYDHDAF_IP1": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 31.334381,
+"longitude": 41.440609,
+"circuitStatus": "UP"
+},
+"KAARKHAJ-KAARKHAJ_IP7": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.698612,
+"longitude": 39.143056,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1494": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.402275,
+"longitude": 39.887328,
+"circuitStatus": "UP"
+},
+"MAKA24_00_304-MAKA24_00_304_IP4": {
+"customer": "MINISTRY OF INTERIOR-PRISON (SC)",
+"technology": "IP",
+"latitude": 21.3728611111111,
+"longitude": 39.7969722222222,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA19": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.3522722222222,
+"longitude": 39.9728722222222,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA22": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 24.75433,
+"longitude": 46.688239,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP289": {
+"customer": "MINISTRY OF COMMERCE (SC)",
+"technology": "IP",
+"latitude": 21.346667,
+"longitude": 39.978889,
+"circuitStatus": "UP"
+},
+"AZIZKHIH-AZIZKHIH_IP1": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.3983388888889,
+"longitude": 39.88815,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1477": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.351688,
+"longitude": 39.984039,
+"circuitStatus": "UP"
+},
+"JEDA05_00_303-JEDA05_00_303_IP3": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.55605,
+"longitude": 39.143458,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP1999": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "IP",
+"latitude": 21.573464,
+"longitude": 39.125311,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1190": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.350550999999999,
+"longitude": 39.966025999999999,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP2452": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 22.035704,
+"longitude": 38.971806,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1921": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.386436,
+"longitude": 39.907808,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA48": {
+"customer": "ROYAL DIWAN-ROYAL PROTOCOL(sc)",
+"technology": "DIA",
+"latitude": 21.42175,
+"longitude": 39.829056,
+"circuitStatus": "UP"
+},
+"MAKA26_31-MAKA26_31_IP3": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.351906982103898,
+"longitude": 39.876685862863098,
+"circuitStatus": "UP"
+},
+"MAKA23_00_105-MAKA23_00_105_IP4": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.407438,
+"longitude": 39.887589,
+"circuitStatus": "UP"
+},
+"MAKA29-MAKA29_IP3": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.400537,
+"longitude": 39.782022,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1903": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.350517,
+"longitude": 39.988447,
+"circuitStatus": "UP"
+},
+"MAKA22_00_407-RYAD06_43_DIA1": {
+"customer": "GENERAL CARS SYNDICATE (SC)",
+"technology": "DIA",
+"latitude": 21.4403055555556,
+"longitude": 39.7859194444444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1926": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21343286,
+"longitude": 39965972,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP310": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.433406000000002,
+"longitude": 39.853855000000003,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_CBLS228": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "CBLS",
+"latitude": 21.500751,
+"longitude": 39.201634,
+"circuitStatus": "UP"
+},
+"DMAM04_00_201-DMAM04_00_201_IP3": {
+"customer": "MINISTRY OF INTERIOR-PASSPORT(SC)",
+"technology": "IP",
+"latitude": 26.184048,
+"longitude": 50.319361,
+"circuitStatus": "UP"
+},
+"HAMRTBAJ-HAMRTBAJ_IP2": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 29.167091,
+"longitude": 36.073943,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA170": {
+"customer": "ROYAL PALACE-KING ABDULLAH BIN ABDULAZIZ (SC)",
+"technology": "DIA",
+"latitude": 21.4311111111111,
+"longitude": 39.83,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP2053": {
+"customer": "SAMIS - MUJAHDEEN",
+"technology": "IP",
+"latitude": 21421741,
+"longitude": 39856153,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA278": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.411959,
+"longitude": 39.881638,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_PLL120": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "PLL",
+"latitude": 22.0992,
+"longitude": 39.030889,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA13": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.405278,
+"longitude": 39.888333,
+"circuitStatus": "UP"
+},
+"MAKA29-MAKA29_IP20": {
+"customer": "National Water Company (SIP)",
+"technology": "IP",
+"latitude": 21.400537,
+"longitude": 39.78202,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP551": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.382223,
+"longitude": 39.89026,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1173": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.3508027777778,
+"longitude": 39.9652527777778,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP1437": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "IP",
+"latitude": 21.539856,
+"longitude": 39.142406,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_PLL68": {
+"customer": "MINISTRY OF INTERIOR-GIP (SC)",
+"technology": "PLL",
+"latitude": 21.4217,
+"longitude": 39.8290,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP2109": {
+"customer": "SAMIS - MINISTRY OF HAJJ",
+"technology": "IP",
+"latitude": 21.416645,
+"longitude": 39.767723,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_PLL39": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "PLL",
+"latitude": 21.42085,
+"longitude": 39.8247,
+"circuitStatus": "UP"
+},
+"MAKA23_00_209-MAKA23_00_209_IP10": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.3991222222222,
+"longitude": 39.8872694444444,
+"circuitStatus": "UP"
+},
+"HMTRJZAK-HMTRJZAK_IP6": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 16.899176,
+"longitude": 42.584208,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP673": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.3539722222222,
+"longitude": 39.9812555555556,
+"circuitStatus": "UP"
+},
+"MAKA23_11-MAKA23_11_IP50": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.40825,
+"longitude": 39.8886944444444,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1818": {
+"customer": "MINISTRY OF HAJJ (SC).",
+"technology": "IP",
+"latitude": 21.415628,
+"longitude": 39.768426,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1072": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.3834722222222,
+"longitude": 39.91265,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1833": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.417988,
+"longitude": 39.873006,
+"circuitStatus": "UP"
+},
+"RYAD06_43-SYNAKHAA_DIA1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.485556,
+"longitude": 39.789444,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA12": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.3995222222222,
+"longitude": 39.9016361111111,
+"circuitStatus": "UP"
+},
+"MAKA23_00_225-MAKA23_00_225_IP26": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.387854000000001,
+"longitude": 39.894255000000001,
+"circuitStatus": "UP"
+},
+"AZIZKHTU-RYAD06_43_DIA1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.386389,
+"longitude": 39.857778,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA426": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.420007,
+"longitude": 39.869049,
+"circuitStatus": "UP"
+},
+"JEDAAP-JEDAAP_IP182": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.669384,
+"longitude": 39.151192,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1906": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.357739,
+"longitude": 39.979662,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1995": {
+"customer": "MINISTRY OF INTERIOR-PRISON (SC)",
+"technology": "IP",
+"latitude": 21.343145,
+"longitude": 39.997261,
+"circuitStatus": "UP"
+},
+"JUMM99-JUMM99_IP43": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.614133,
+"longitude": 39.693741,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA51": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.435833,
+"longitude": 39.901667,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA188": {
+"customer": "GID - Makkah District",
+"technology": "DIA",
+"latitude": 21.3496861111111,
+"longitude": 39.9630972222222,
+"circuitStatus": "UP"
+},
+"MENAKHAF-MENAKHAF_IP1": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 21.472222,
+"longitude": 39.172222,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1513": {
+"customer": "National Center for Security Operations",
+"technology": "IP",
+"latitude": 21.42172,
+"longitude": 39.82913,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1311": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21439696,
+"longitude": 39790206,
+"circuitStatus": "UP"
+},
+"ZAHRKH0A000-ZAHRKH0A000_IP1": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.441731000000001,
+"longitude": 39.808146999999998,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_CBLS26": {
+"customer": "ROYAL CLINIC",
+"technology": "CBLS",
+"latitude": 21.42175,
+"longitude": 39.8290555555556,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA17": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.348333,
+"longitude": 39.935,
+"circuitStatus": "UP"
+},
+"MAKA23-MAKA23_IP108": {
+"customer": "MINISTRY OF INTERIOR-PUBLIC SECURITY (SC)",
+"technology": "IP",
+"latitude": 21.421744,
+"longitude": 39.856111,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP262": {
+"customer": "SAMIS - GID",
+"technology": "IP",
+"latitude": 21.3980388888889,
+"longitude": 39.8876472222222,
+"circuitStatus": "UP"
+},
+"MAKA22-MAKA22_IP194": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.430472,
+"longitude": 39.812528,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA370": {
+"customer": "Saudi Broadcasting Corpotation",
+"technology": "DIA",
+"latitude": 21.418056,
+"longitude": 39.873292,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA414": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "DIA",
+"latitude": 21.360931,
+"longitude": 39.914261,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP706": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.3496861111111,
+"longitude": 39.9630972222222,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA233": {
+"customer": "Private Affairs of King Salman bin Abdulaziz",
+"technology": "DIA",
+"latitude": 21.421825,
+"longitude": 39.828433,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1202": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.3834722222222,
+"longitude": 39.91265,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_PLL103": {
+"customer": "MOI - Department of Telecommunications & Wireless",
+"technology": "PLL",
+"latitude": 21.693579,
+"longitude": 39.092091,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1819": {
+"customer": "MINISTRY OF HAJJ (SC).",
+"technology": "IP",
+"latitude": 21.415628,
+"longitude": 39.768426,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_PLL9": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "PLL",
+"latitude": 21.42085,
+"longitude": 39.8247,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA10": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.4859361111111,
+"longitude": 39.7885083333333,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1444": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.432708999999999,
+"longitude": 39.816797000000001,
+"circuitStatus": "UP"
+},
+"MAKA25_00_106-MAKA25_00_106_IP8": {
+"customer": "MINISTRY OF INTERIOR-PRISON (SC)",
+"technology": "IP",
+"latitude": 21.524167,
+"longitude": 39.789444,
+"circuitStatus": "UP"
+},
+"KAARKHAK-KAARKHAK_IP1": {
+"customer": "SAMIS - PASSPORT",
+"technology": "IP",
+"latitude": 21.687138,
+"longitude": 39.143416,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP695": {
+"customer": "National Water Company (SIP)",
+"technology": "IP",
+"latitude": 21.384419,
+"longitude": 39.879405,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1896": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.416981,
+"longitude": 39.886542,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP386": {
+"customer": "SAUDI RED CRESCENT (SC)",
+"technology": "IP",
+"latitude": 21.385959,
+"longitude": 39.883935,
+"circuitStatus": "UP"
+},
+"MAKA23_21-MAKA23_21_IP19": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.3539722222222,
+"longitude": 39.9812555555556,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP972": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 24.29004,
+"longitude": 39.39075,
+"circuitStatus": "UP"
+},
+"MAKA23_21-MAKA23_21_IP56": {
+"customer": "MINISTRY OF INTERIOR PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.3594861111111,
+"longitude": 39.9622083333333,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP299": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.395139,
+"longitude": 39.893639,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA357": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.350139,
+"longitude": 39.570556,
+"circuitStatus": "UP"
+},
+"JEDDAH-MADINAH_DIA17": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.48002,
+"longitude": 39.183067,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA314": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.351644,
+"longitude": 39.984002,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1989": {
+"customer": "MINISTRY OF INTERIOR-HEAD QUARTER (SC)",
+"technology": "IP",
+"latitude": 21.361014,
+"longitude": 39.916031,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA336": {
+"customer": "SAUDI PRESS AGENCY",
+"technology": "DIA",
+"latitude": 21.352551999999999,
+"longitude": 39.970968999999997,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP12": {
+"customer": "SAMIS - GID",
+"technology": "IP",
+"latitude": 21.4131138888889,
+"longitude": 39.8795416666667,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1497": {
+"customer": "MOI - TECHNICAL AFFAIRS (SC)",
+"technology": "IP",
+"latitude": 21.398889,
+"longitude": 39.888333,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP74": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.406025,
+"longitude": 39.887972,
+"circuitStatus": "UP"
+},
+"JEDA05_00_303-JEDA05_00_303_IP2": {
+"customer": "SAUDI ARABIAN AIRLINES (SC)",
+"technology": "IP",
+"latitude": 21.55605,
+"longitude": 39.143458,
+"circuitStatus": "UP"
+},
+"MADINAH-MADINAH_IP583": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 24.47861,
+"longitude": 39.63444,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA263": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.411959,
+"longitude": 39.881638000000002,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1506": {
+"customer": "MINISTRY OF SOCIAL WELFARE (SC)",
+"technology": "IP",
+"latitude": 21.403718,
+"longitude": 39.813415,
+"circuitStatus": "UP"
+},
+"JEDDAH-JEDDAH_IP1989": {
+"customer": "Royal Diwan",
+"technology": "IP",
+"latitude": 21.573464,
+"longitude": 39.125311,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA37": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.416796999999999,
+"longitude": 39.772703,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA186": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.4132861111111,
+"longitude": 39.8975833333333,
+"circuitStatus": "DOWN"
+},
+"MAKA23_11-MAKA23_11_IP113": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.427451000000001,
+"longitude": 39.893835000000003,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1925": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21341061,
+"longitude": 39971789,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA11": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "DIA",
+"latitude": 21.410743,
+"longitude": 39.891486,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP552": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.411882,
+"longitude": 39.867034,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA412": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "DIA",
+"latitude": 21.390362,
+"longitude": 39.908443,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP639": {
+"customer": "SAMIS - PUBLIC SECURITY",
+"technology": "IP",
+"latitude": 21.42085,
+"longitude": 39.8247,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_PLL40": {
+"customer": "MINISTRY OF INFORMATION-HEAD QUARTER (SC)",
+"technology": "PLL",
+"latitude": 21.42085,
+"longitude": 39.8247,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_PLL66": {
+"customer": "MINISTRY OF INTERIOR-GIP (SC)",
+"technology": "PLL",
+"latitude": 21.3708239999999,
+"longitude": 39.8925479999999,
+"circuitStatus": "UP"
+},
+"JEDDAH-MAKKAH_DIA320": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "DIA",
+"latitude": 21.421825,
+"longitude": 39.828433,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1373": {
+"customer": "MINISTRY OF INTERIOR-CIVIL DEFENCE (SC)",
+"technology": "IP",
+"latitude": 21.36613,
+"longitude": 39.88431,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_DIA272": {
+"customer": "MINISTRY OF INTERIOR-KING FAHD COLLEGE (SC)",
+"technology": "DIA",
+"latitude": 21.408657000000002,
+"longitude": 39.889305,
+"circuitStatus": "DOWN"
+},
+"MAKKAH-MAKKAH_IP614f": {
+"customer": "Ministry of Interior Headquarters & SAMIS",
+"technology": "IP",
+"latitude": 21.419643,
+"longitude": 39.843127,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1316": {
+"customer": "GID - Makkah District",
+"technology": "IP",
+"latitude": 21.42085,
+"longitude": 39.8247,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1612": {
+"customer": "SAUDI RED CRESCENT (SC)",
+"technology": "IP",
+"latitude": 21440144,
+"longitude": 39788202,
+"circuitStatus": "UP"
+},
+"MAKKAH-RIYADH_PLL111": {
+"customer": "MINISTRY OF INTERIOR-GIP (SC)",
+"technology": "PLL",
+"latitude": 46.63,
+"longitude": 39.88,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP1559": {
+"customer": "National Center for Security Operations",
+"technology": "IP",
+"latitude": 21.36111,
+"longitude": 39.91602,
+"circuitStatus": "UP"
+},
+"MAKKAH-MAKKAH_IP101": {
+"customer": "MINISTRY OF HEALTH (SC)",
+"technology": "IP",
+"latitude": 21.406025,
+"longitude": 39.887972,
+"circuitStatus": "UP"
+}
+}
+}
